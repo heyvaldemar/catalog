@@ -1,0 +1,28 @@
+{
+ "clean_machine_restores": [
+  {
+   "finished_at": "2026-09-23T22:00:49Z",
+   "from": "v1.9.1",
+   "ok": true,
+   "repository": "wordpress-traefik-letsencrypt-docker-compose",
+   "run": "https://github.com/heyvaldemar/wordpress-traefik-letsencrypt-docker-compose/actions/runs/35925652866",
+   "seconds_restore": 20,
+   "seconds_total": 63,
+   "to": "v1.9.1-1-gb612bd5"
+  }
+ ],
+ "groups": {
+  "Terraform pipelines on AWS": 8,
+  "game servers": 14,
+  "operations tools and scripts": 11,
+  "other stacks": 6,
+  "self-hosted applications behind Traefik": 49
+ },
+ "measured_at": "2026-09-23 22:03 UTC",
+ "release_tags": 830,
+ "repositories": 88,
+ "restore_repositories": 48,
+ "restore_scripts": 73,
+ "restore_scripts_run": 73,
+ "unread": []
+}
