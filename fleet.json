@@ -56,7 +56,7 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-24 03:32 UTC",
+ "measured_at": "2026-09-24 03:36 UTC",
  "release_tags": 833,
  "repositories": 88,
  "restore_repositories": 48,
@@ -78,7 +78,7 @@
    "Signed-Releases": 2,
    "Token-Permissions": 1
   },
-  "date": "2026-09-24T03:25:19Z",
+  "date": "2026-09-24T03:32:55Z",
   "lowest": 5.9,
   "lowest_repository": "systemd-timer-table",
   "median": 6.8,
@@ -122,7 +122,7 @@
    "gitlab-traefik-letsencrypt-docker-compose": 7.6,
    "glpi-traefik-letsencrypt-docker-compose": 7.6,
    "grafana-traefik-letsencrypt-docker-compose": 7.8,
-   "heyvaldemar": 6.7,
+   "heyvaldemar": 6.9,
    "heyvaldemar-com-comments": 6.3,
    "homeassistant-traefik-letsencrypt-docker-compose": 7.6,
    "homebox-traefik-letsencrypt-docker-compose": 7.6,
