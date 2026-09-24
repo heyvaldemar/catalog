@@ -290,11 +290,11 @@
   },
   {
    "backup_interval": "24h",
-   "finished_at": "2026-09-24T19:31:39Z",
+   "finished_at": "2026-09-24T20:06:40Z",
    "ok": false,
    "repository": "mailu-traefik-letsencrypt-docker-compose",
    "rpo_hours": 24,
-   "run": "https://github.com/heyvaldemar/mailu-traefik-letsencrypt-docker-compose/actions/runs/36046882946"
+   "run": "https://github.com/heyvaldemar/mailu-traefik-letsencrypt-docker-compose/actions/runs/36049497653"
   },
   {
    "backup_interval": "24h",
@@ -556,7 +556,7 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-24 19:37 UTC",
+ "measured_at": "2026-09-24 20:13 UTC",
  "release_tags": 835,
  "repositories": 88,
  "restore_repositories": 48,
@@ -578,7 +578,7 @@
    "Signed-Releases": 2,
    "Token-Permissions": 1
   },
-  "date": "2026-09-24T19:15:26Z",
+  "date": "2026-09-24T19:38:28Z",
   "lowest": 6.3,
   "lowest_repository": "systemd-timer-table",
   "median": 7.2,
