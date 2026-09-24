@@ -21,14 +21,14 @@
    "to": "v1.7.7"
   },
   {
-   "finished_at": "2026-09-24T00:07:55Z",
+   "finished_at": "2026-09-24T00:47:47Z",
    "from": "v2.0.4",
    "ok": true,
    "repository": "nextcloud-traefik-letsencrypt-docker-compose",
-   "run": "https://github.com/heyvaldemar/nextcloud-traefik-letsencrypt-docker-compose/actions/runs/35936334598",
+   "run": "https://github.com/heyvaldemar/nextcloud-traefik-letsencrypt-docker-compose/actions/runs/35939430066",
    "seconds_restore": 75,
-   "seconds_total": 153,
-   "to": "v2.0.6"
+   "seconds_total": 139,
+   "to": "v2.0.7"
   },
   {
    "finished_at": "2026-09-24T00:03:21Z",
@@ -48,8 +48,8 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-24 00:13 UTC",
- "release_tags": 832,
+ "measured_at": "2026-09-24 00:53 UTC",
+ "release_tags": 833,
  "repositories": 88,
  "restore_repositories": 48,
  "restore_scripts": 73,
