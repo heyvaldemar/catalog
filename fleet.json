@@ -1,14 +1,44 @@
 {
  "clean_machine_restores": [
   {
-   "finished_at": "2026-09-23T22:00:49Z",
-   "from": "v1.9.1",
+   "finished_at": "2026-09-24T00:02:47Z",
+   "from": "v1.8.3",
+   "ok": true,
+   "repository": "gitea-traefik-letsencrypt-docker-compose",
+   "run": "https://github.com/heyvaldemar/gitea-traefik-letsencrypt-docker-compose/actions/runs/35936330441",
+   "seconds_restore": 22,
+   "seconds_total": 45,
+   "to": "v1.8.5"
+  },
+  {
+   "finished_at": "2026-09-24T00:03:55Z",
+   "from": "v1.7.5",
+   "ok": true,
+   "repository": "keycloak-traefik-letsencrypt-docker-compose",
+   "run": "https://github.com/heyvaldemar/keycloak-traefik-letsencrypt-docker-compose/actions/runs/35936337434",
+   "seconds_restore": 23,
+   "seconds_total": 88,
+   "to": "v1.7.7"
+  },
+  {
+   "finished_at": "2026-09-24T00:07:55Z",
+   "from": "v2.0.4",
+   "ok": true,
+   "repository": "nextcloud-traefik-letsencrypt-docker-compose",
+   "run": "https://github.com/heyvaldemar/nextcloud-traefik-letsencrypt-docker-compose/actions/runs/35936334598",
+   "seconds_restore": 75,
+   "seconds_total": 153,
+   "to": "v2.0.6"
+  },
+  {
+   "finished_at": "2026-09-24T00:03:21Z",
+   "from": "v1.9.0",
    "ok": true,
    "repository": "wordpress-traefik-letsencrypt-docker-compose",
-   "run": "https://github.com/heyvaldemar/wordpress-traefik-letsencrypt-docker-compose/actions/runs/35925652866",
-   "seconds_restore": 20,
-   "seconds_total": 63,
-   "to": "v1.9.1-1-gb612bd5"
+   "run": "https://github.com/heyvaldemar/wordpress-traefik-letsencrypt-docker-compose/actions/runs/35936327245",
+   "seconds_restore": 17,
+   "seconds_total": 51,
+   "to": "v1.9.1"
   }
  ],
  "groups": {
@@ -18,8 +48,8 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-23 22:03 UTC",
- "release_tags": 830,
+ "measured_at": "2026-09-24 00:13 UTC",
+ "release_tags": 832,
  "repositories": 88,
  "restore_repositories": 48,
  "restore_scripts": 73,
