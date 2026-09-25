@@ -374,11 +374,11 @@
   },
   {
    "backup_interval": "24h",
-   "finished_at": "2026-09-25T01:07:22Z",
+   "finished_at": "2026-09-25T01:35:47Z",
    "ok": false,
    "repository": "otrs-traefik-letsencrypt-docker-compose",
    "rpo_hours": 24,
-   "run": "https://github.com/heyvaldemar/otrs-traefik-letsencrypt-docker-compose/actions/runs/36078919793"
+   "run": "https://github.com/heyvaldemar/otrs-traefik-letsencrypt-docker-compose/actions/runs/36081291178"
   },
   {
    "backup_interval": null,
@@ -568,7 +568,7 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-25 01:15 UTC",
+ "measured_at": "2026-09-25 01:42 UTC",
  "release_tags": 836,
  "repositories": 88,
  "restore_repositories": 48,
@@ -590,7 +590,7 @@
    "Signed-Releases": 2,
    "Token-Permissions": 1
   },
-  "date": "2026-09-25T00:54:26Z",
+  "date": "2026-09-25T01:15:53Z",
   "lowest": 6.3,
   "lowest_repository": "systemd-timer-table",
   "median": 7.2,
