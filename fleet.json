@@ -362,11 +362,15 @@
   },
   {
    "backup_interval": "24h",
-   "finished_at": "2026-09-25T01:59:33Z",
-   "ok": false,
+   "finished_at": "2026-09-25T02:18:31Z",
+   "from": "v1.5.6",
+   "ok": true,
    "repository": "ollama-traefik-letsencrypt-docker-compose",
    "rpo_hours": 24,
-   "run": "https://github.com/heyvaldemar/ollama-traefik-letsencrypt-docker-compose/actions/runs/36083355503"
+   "run": "https://github.com/heyvaldemar/ollama-traefik-letsencrypt-docker-compose/actions/runs/36085230409",
+   "seconds_restore": 38,
+   "seconds_total": 180,
+   "to": "v1.5.7"
   },
   {
    "backup_interval": "24h",
@@ -568,7 +572,7 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-25 02:10 UTC",
+ "measured_at": "2026-09-25 02:26 UTC",
  "release_tags": 836,
  "repositories": 88,
  "restore_repositories": 48,
@@ -590,7 +594,7 @@
    "Signed-Releases": 2,
    "Token-Permissions": 1
   },
-  "date": "2026-09-25T01:54:50Z",
+  "date": "2026-09-25T02:10:53Z",
   "lowest": 6.3,
   "lowest_repository": "systemd-timer-table",
   "median": 7.2,
