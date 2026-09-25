@@ -572,8 +572,8 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-25 02:26 UTC",
- "release_tags": 836,
+ "measured_at": "2026-09-25 02:56 UTC",
+ "release_tags": 837,
  "repositories": 88,
  "restore_repositories": 48,
  "restore_scripts": 73,
@@ -594,7 +594,7 @@
    "Signed-Releases": 2,
    "Token-Permissions": 1
   },
-  "date": "2026-09-25T02:10:53Z",
+  "date": "2026-09-25T02:44:17Z",
   "lowest": 6.3,
   "lowest_repository": "systemd-timer-table",
   "median": 7.2,
