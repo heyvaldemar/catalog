@@ -787,7 +787,7 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-09-26 00:31 UTC",
+ "measured_at": "2026-09-26 03:46 UTC",
  "release_tags": 865,
  "repositories": 88,
  "restore_repositories": 48,
@@ -796,23 +796,23 @@
  "scorecard": {
   "below_ten": {
    "Binary-Artifacts": 2,
-   "Branch-Protection": 96,
+   "Branch-Protection": 97,
    "CI-Tests": 11,
-   "CII-Best-Practices": 96,
-   "Code-Review": 96,
-   "Fuzzing": 96,
+   "CII-Best-Practices": 97,
+   "Code-Review": 97,
+   "Fuzzing": 97,
    "License": 2,
-   "Maintained": 33,
-   "Pinned-Dependencies": 96,
-   "SAST": 32,
+   "Maintained": 34,
+   "Pinned-Dependencies": 97,
+   "SAST": 33,
    "Signed-Releases": 8,
-   "Token-Permissions": 1
+   "Token-Permissions": 2
   },
-  "date": "2026-09-25T23:35:22Z",
-  "lowest": 6.7,
-  "lowest_repository": "deadman-switch",
+  "date": "2026-09-26T03:15:55Z",
+  "lowest": 5.3,
+  "lowest_repository": "fleet-ops-next",
   "median": 7.4,
-  "scored": 96,
+  "scored": 97,
   "scores": {
    "affine-traefik-letsencrypt-docker-compose": 7.4,
    "ama": 7,
@@ -843,6 +843,7 @@
    "docmost-traefik-letsencrypt-docker-compose": 8,
    "dozzle-traefik-letsencrypt-docker-compose": 7.2,
    "external-disk-backup": 6.7,
+   "fleet-ops-next": 5.3,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
    "game-server-wireguard-relay-docker-compose": 7.2,
    "gaseous-server-using-docker-compose": 7.2,
@@ -911,9 +912,7 @@
    "zammad-traefik-letsencrypt-docker-compose": 8,
    "zomboid-server-docker-compose": 7.2
   },
-  "unscored": [
-   "fleet-ops-next"
-  ]
+  "unscored": []
  },
  "unread": []
 }
