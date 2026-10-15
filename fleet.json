@@ -878,12 +878,12 @@
    }
   }
  },
- "measured_at": "2026-10-15 16:01 UTC",
+ "measured_at": "2026-10-15 16:38 UTC",
  "operations": {
-  "ci_runs_failed": 878,
-  "ci_runs_succeeded": 13608,
-  "commits": 3494,
-  "commits_by_owner": 3183,
+  "ci_runs_failed": 882,
+  "ci_runs_succeeded": 13630,
+  "commits": 3495,
+  "commits_by_owner": 3186,
   "releases": 693,
   "repositories": 101,
   "repositories_changed": 101,
@@ -891,6 +891,34 @@
   "since": "2026-09-15",
   "unread": [],
   "window_days": 30
+ },
+ "planted_violations": {
+  "admission": 24,
+  "controls": 6,
+  "repositories": {
+   "aws-eks-reference-platform": {
+    "admission": 5,
+    "controls": 1,
+    "static": 65
+   },
+   "kubernetes-ai-agent-sandbox": {
+    "admission": 12,
+    "controls": 2,
+    "static": 9
+   },
+   "kubernetes-postgres-recovery": {
+    "admission": 3,
+    "controls": 2,
+    "static": 11
+   },
+   "kubernetes-supply-chain-admission": {
+    "admission": 4,
+    "controls": 1,
+    "static": 4
+   }
+  },
+  "static": 89,
+  "unread": []
  },
  "release_tags": 1252,
  "repositories": 92,
@@ -910,10 +938,10 @@
    "Maintained": 38,
    "Pinned-Dependencies": 101,
    "SAST": 30,
-   "Signed-Releases": 11,
+   "Signed-Releases": 10,
    "Token-Permissions": 1
   },
-  "date": "2026-10-15T15:51:35Z",
+  "date": "2026-10-15T16:30:46Z",
   "lowest": 6.4,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
@@ -1024,5 +1052,88 @@
   "unscored": []
  },
  "unread": [],
- "upstream": []
+ "upstream": [
+  {
+   "found_in": "kubernetes-ai-agent-sandbox",
+   "posted": "2026-10-13",
+   "project": "google/gvisor",
+   "replies": 0,
+   "role": "issue",
+   "state": "open",
+   "title": "NoSwap (the kubelet default): a gVisor pod's memory limit is not enforced on a node with swap; follow-up to #13267",
+   "updated": "2026-10-13",
+   "url": "https://github.com/google/gvisor/issues/15756"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-13",
+   "project": "kyverno/website",
+   "role": "pull request",
+   "state": "open",
+   "title": "docs(ivpol): extractPayload returns the in-toto statement for intoto attestations",
+   "updated": "2026-10-14",
+   "url": "https://github.com/kyverno/website/pull/2201"
+  },
+  {
+   "found_in": "aws-eks-reference-platform",
+   "posted": "2026-10-13",
+   "project": "kyverno/kyverno",
+   "replies": 20,
+   "role": "comment",
+   "state": "on an issue closed: completed",
+   "title": "[Bug] Webhooks are removed when Kyverno deployment scaled to zero",
+   "updated": "2026-10-13",
+   "url": "https://github.com/kyverno/kyverno/issues/6554#issuecomment-6157719113"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-13",
+   "project": "aquasecurity/trivy",
+   "replies": 0,
+   "role": "discussion",
+   "state": "open",
+   "title": "Exit 0 and no warning when no OS packages are detected, so --exit-code gates pass images Trivy could not read",
+   "updated": "2026-10-13",
+   "url": "https://github.com/aquasecurity/trivy/discussions/11403"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-14",
+   "project": "kyverno/kyverno",
+   "related": {
+    "merged": "2026-10-15",
+    "state": "merged",
+    "title": "fix(engine): handle multiple cosign attestation versions",
+    "url": "https://github.com/kyverno/kyverno/pull/18010"
+   },
+   "replies": 7,
+   "role": "comment",
+   "state": "on an issue closed: completed",
+   "title": "[Bug] Handle multiple cosign attestation versions",
+   "updated": "2026-10-15",
+   "url": "https://github.com/kyverno/kyverno/issues/18000#issuecomment-6159962152"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-14",
+   "project": "kyverno/kyverno",
+   "replies": 2,
+   "role": "issue with a reproduction",
+   "state": "open",
+   "title": "[Bug] ImageValidatingPolicy: extractPayload() returns the attestation the referrers index lists last, not the newest",
+   "updated": "2026-10-14",
+   "url": "https://github.com/kyverno/kyverno/issues/18023"
+  },
+  {
+   "found_in": "aws-eks-reference-platform",
+   "posted": "2026-10-15",
+   "project": "kubernetes-sigs/metrics-server",
+   "replies": 15,
+   "role": "comment",
+   "state": "on an issue open",
+   "title": "Aggregated APIService's /openapi/v2 gets corrupted (ArbitraryKeys/SchemaProps/SwaggerSchemaProps leak as literal schema properties) when the APIService's kube-openapi is newer than the parent apiserver's",
+   "updated": "2026-10-15",
+   "url": "https://github.com/kubernetes-sigs/metrics-server/issues/1868#issuecomment-6195863017"
+  }
+ ]
 }
