@@ -670,15 +670,15 @@
   },
   {
    "backup_interval": "24h",
-   "finished_at": "2026-10-11T11:07:00Z",
-   "from": "v1.9.2",
+   "finished_at": "2026-10-15T17:02:58Z",
+   "from": "v1.9.3",
    "ok": true,
    "repository": "sonarqube-traefik-letsencrypt-docker-compose",
    "rpo_hours": 24,
-   "run": "https://github.com/heyvaldemar/sonarqube-traefik-letsencrypt-docker-compose/actions/runs/38133888161",
-   "seconds_restore": 100,
-   "seconds_total": 194,
-   "to": "v1.9.3"
+   "run": "https://github.com/heyvaldemar/sonarqube-traefik-letsencrypt-docker-compose/actions/runs/38772786013",
+   "seconds_restore": 121,
+   "seconds_total": 218,
+   "to": "main"
   },
   {
    "backup_interval": "24h",
@@ -791,25 +791,25 @@
     "runs_passed": 1,
     "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-10-15T15:47:34Z"
+    "written_at": "2026-10-15T17:20:41Z"
    },
    "kind": {
     "days_with_runs": 5,
-    "green_days": 3,
+    "green_days": 4,
     "latest": {
-     "at": "2026-10-15T15:34:04Z",
+     "at": "2026-10-15T17:03:50Z",
      "checks_failed": 0,
-     "checks_passed": 56,
-     "commit": "c042f68",
-     "conclusion": "failure",
+     "checks_passed": 112,
+     "commit": "1c51f39",
+     "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38761467262"
+     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38774186749"
     },
-    "runs": 38,
-    "runs_passed": 26,
-    "streak_days": 0,
+    "runs": 40,
+    "runs_passed": 28,
+    "streak_days": 3,
     "window_days": 30,
-    "written_at": "2026-10-15T15:47:30Z"
+    "written_at": "2026-10-15T17:20:39Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -878,16 +878,25 @@
    }
   }
  },
- "measured_at": "2026-10-15 16:38 UTC",
+ "measured_at": "2026-10-15 18:25 UTC",
  "operations": {
-  "ci_runs_failed": 882,
-  "ci_runs_succeeded": 13630,
-  "commits": 3495,
-  "commits_by_owner": 3186,
-  "releases": 693,
+  "ci_runs_failed": 886,
+  "ci_runs_succeeded": 13652,
+  "commits": 3489,
+  "commits_by_owner": 3180,
+  "dependency_updates": {
+   "measured": 326,
+   "median_minutes": 4.3,
+   "merged": 326,
+   "oldest_open_days": 0,
+   "open": 0,
+   "p90_minutes": 7.0,
+   "repositories": 100
+  },
+  "releases": 685,
   "repositories": 101,
   "repositories_changed": 101,
-  "repositories_released": 91,
+  "repositories_released": 90,
   "since": "2026-09-15",
   "unread": [],
   "window_days": 30
@@ -941,7 +950,7 @@
    "Signed-Releases": 10,
    "Token-Permissions": 1
   },
-  "date": "2026-10-15T16:30:46Z",
+  "date": "2026-10-15T18:13:05Z",
   "lowest": 6.4,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
