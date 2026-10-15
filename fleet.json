@@ -791,25 +791,25 @@
     "runs_passed": 1,
     "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-10-15T15:35:06Z"
+    "written_at": "2026-10-15T15:47:34Z"
    },
    "kind": {
     "days_with_runs": 5,
-    "green_days": 4,
+    "green_days": 3,
     "latest": {
-     "at": "2026-10-15T09:25:17Z",
+     "at": "2026-10-15T15:34:04Z",
      "checks_failed": 0,
-     "checks_passed": 112,
-     "commit": "bd290e4",
-     "conclusion": "success",
+     "checks_passed": 56,
+     "commit": "c042f68",
+     "conclusion": "failure",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38712800260"
+     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38761467262"
     },
-    "runs": 37,
+    "runs": 38,
     "runs_passed": 26,
-    "streak_days": 3,
+    "streak_days": 0,
     "window_days": 30,
-    "written_at": "2026-10-15T15:35:03Z"
+    "written_at": "2026-10-15T15:47:30Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -878,7 +878,20 @@
    }
   }
  },
- "measured_at": "2026-10-15 15:42 UTC",
+ "measured_at": "2026-10-15 16:01 UTC",
+ "operations": {
+  "ci_runs_failed": 878,
+  "ci_runs_succeeded": 13608,
+  "commits": 3494,
+  "commits_by_owner": 3183,
+  "releases": 693,
+  "repositories": 101,
+  "repositories_changed": 101,
+  "repositories_released": 91,
+  "since": "2026-09-15",
+  "unread": [],
+  "window_days": 30
+ },
  "release_tags": 1252,
  "repositories": 92,
  "restore_repositories": 48,
@@ -900,7 +913,7 @@
    "Signed-Releases": 11,
    "Token-Permissions": 1
   },
-  "date": "2026-10-15T15:34:26Z",
+  "date": "2026-10-15T15:51:35Z",
   "lowest": 6.4,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
