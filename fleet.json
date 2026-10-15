@@ -773,8 +773,113 @@
   "other stacks": 6,
   "self-hosted applications behind Traefik": 49
  },
- "measured_at": "2026-10-15 11:43 UTC",
- "release_tags": 1249,
+ "live_status": {
+  "aws-eks-reference-platform": {
+   "aws": {
+    "days_with_runs": 1,
+    "green_days": 1,
+    "latest": {
+     "at": "2026-10-15T06:54:05Z",
+     "checks_failed": 0,
+     "checks_passed": 0,
+     "commit": "7040995",
+     "conclusion": "success",
+     "measured": [],
+     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38695231460"
+    },
+    "runs": 8,
+    "runs_passed": 1,
+    "streak_days": 1,
+    "window_days": 30,
+    "written_at": "2026-10-15T15:35:06Z"
+   },
+   "kind": {
+    "days_with_runs": 5,
+    "green_days": 4,
+    "latest": {
+     "at": "2026-10-15T09:25:17Z",
+     "checks_failed": 0,
+     "checks_passed": 112,
+     "commit": "bd290e4",
+     "conclusion": "success",
+     "measured": [],
+     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38712800260"
+    },
+    "runs": 37,
+    "runs_passed": 26,
+    "streak_days": 3,
+    "window_days": 30,
+    "written_at": "2026-10-15T15:35:03Z"
+   }
+  },
+  "kubernetes-ai-agent-sandbox": {
+   "kind": {
+    "days_with_runs": 3,
+    "green_days": 3,
+    "latest": {
+     "at": "2026-10-15T15:34:06Z",
+     "checks_failed": 0,
+     "checks_passed": 57,
+     "commit": "c911351",
+     "conclusion": "success",
+     "measured": [],
+     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/38761473229"
+    },
+    "runs": 23,
+    "runs_passed": 23,
+    "streak_days": 3,
+    "window_days": 30,
+    "written_at": "2026-10-15T15:37:03Z"
+   }
+  },
+  "kubernetes-postgres-recovery": {
+   "kind": {
+    "days_with_runs": 2,
+    "green_days": 2,
+    "latest": {
+     "at": "2026-10-15T15:34:09Z",
+     "checks_failed": 0,
+     "checks_passed": 19,
+     "commit": "d3c3127",
+     "conclusion": "success",
+     "measured": [
+      "point-in-time restore: ready in 50s",
+      "promotion: a new primary 23s after the kill",
+      "write gap: 26.1s without an acknowledged write (28 writes refused or timed out)",
+      "restore from the bucket alone: ready in 52s"
+     ],
+     "url": "https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/runs/38761478960"
+    },
+    "runs": 11,
+    "runs_passed": 11,
+    "streak_days": 2,
+    "window_days": 30,
+    "written_at": "2026-10-15T15:41:46Z"
+   }
+  },
+  "kubernetes-supply-chain-admission": {
+   "kind": {
+    "days_with_runs": 3,
+    "green_days": 3,
+    "latest": {
+     "at": "2026-10-15T15:34:08Z",
+     "checks_failed": 0,
+     "checks_passed": 9,
+     "commit": "7f124a1",
+     "conclusion": "success",
+     "measured": [],
+     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/38761476794"
+    },
+    "runs": 24,
+    "runs_passed": 21,
+    "streak_days": 3,
+    "window_days": 30,
+    "written_at": "2026-10-15T15:37:25Z"
+   }
+  }
+ },
+ "measured_at": "2026-10-15 15:42 UTC",
+ "release_tags": 1252,
  "repositories": 92,
  "restore_repositories": 48,
  "restore_scripts": 73,
@@ -795,8 +900,8 @@
    "Signed-Releases": 11,
    "Token-Permissions": 1
   },
-  "date": "2026-10-15T08:23:37Z",
-  "lowest": 6.5,
+  "date": "2026-10-15T15:34:26Z",
+  "lowest": 6.4,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
   "scored": 101,
@@ -804,9 +909,9 @@
    "affine-traefik-letsencrypt-docker-compose": 7.9,
    "ama": 6.9,
    "amazon-ec2-gitlab-pipeline-terraform": 7.8,
-   "amazon-ec2-instance-pipeline-terraform": 7.4,
-   "amazon-ec2-keycloak-docker-swarm-pipeline-terraform": 7.3,
-   "amazon-ec2-nextcloud-docker-swarm-pipeline-terraform": 7.3,
+   "amazon-ec2-instance-pipeline-terraform": 7.3,
+   "amazon-ec2-keycloak-docker-swarm-pipeline-terraform": 7.2,
+   "amazon-ec2-nextcloud-docker-swarm-pipeline-terraform": 7.2,
    "amazon-eks-cluster-pipeline-terraform": 7.4,
    "amazon-lightsail-instance-pipeline-terraform": 7.4,
    "amazon-rds-pipeline-terraform": 7.4,
@@ -823,7 +928,7 @@
    "confluence-traefik-letsencrypt-docker-compose": 7.9,
    "cs2-classic-server-docker-compose": 7.2,
    "cs2-server-docker-compose": 7.2,
-   "dashy-traefik-letsencrypt-docker-compose": 7.8,
+   "dashy-traefik-letsencrypt-docker-compose": 7.9,
    "deadman-switch": 6.6,
    "dify-traefik-letsencrypt-docker-compose": 7.2,
    "disable-inactive-users-active-directory": 7.4,
@@ -831,9 +936,9 @@
    "docmost-traefik-letsencrypt-docker-compose": 7.9,
    "dozzle-traefik-letsencrypt-docker-compose": 7,
    "external-disk-backup": 6.6,
-   "fleet-ops": 6.5,
+   "fleet-ops": 6.4,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
-   "game-server-wireguard-relay-docker-compose": 7.1,
+   "game-server-wireguard-relay-docker-compose": 7.2,
    "gaseous-server-using-docker-compose": 7.2,
    "ghost-traefik-letsencrypt-docker-compose": 7.8,
    "gitea-traefik-letsencrypt-docker-compose": 7.9,
@@ -853,8 +958,8 @@
    "joomla-traefik-letsencrypt-docker-compose": 7.9,
    "keycloak-traefik-letsencrypt-docker-compose": 7.8,
    "kf2-server-docker-compose": 7.1,
-   "kubernetes-ai-agent-sandbox": 7.1,
-   "kubernetes-postgres-recovery": 7.1,
+   "kubernetes-ai-agent-sandbox": 7.2,
+   "kubernetes-postgres-recovery": 7.2,
    "kubernetes-supply-chain-admission": 7.2,
    "l4d2-server-docker-compose": 7.2,
    "machine-learning-deep-learning-courses": 6.9,
@@ -905,5 +1010,6 @@
   },
   "unscored": []
  },
- "unread": []
+ "unread": [],
+ "upstream": []
 }
