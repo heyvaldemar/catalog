@@ -791,113 +791,113 @@
     "runs_passed": 1,
     "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-10-15T17:20:41Z"
+    "written_at": "2026-10-16T09:30:50Z"
    },
    "kind": {
-    "days_with_runs": 5,
-    "green_days": 4,
+    "days_with_runs": 6,
+    "green_days": 5,
     "latest": {
-     "at": "2026-10-15T17:03:50Z",
+     "at": "2026-10-16T09:17:06Z",
      "checks_failed": 0,
      "checks_passed": 112,
      "commit": "1c51f39",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38774186749"
+     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/38879399388"
     },
-    "runs": 40,
-    "runs_passed": 28,
-    "streak_days": 3,
+    "runs": 41,
+    "runs_passed": 29,
+    "streak_days": 4,
     "window_days": 30,
-    "written_at": "2026-10-15T17:20:39Z"
+    "written_at": "2026-10-16T09:30:45Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
    "kind": {
-    "days_with_runs": 3,
-    "green_days": 3,
+    "days_with_runs": 4,
+    "green_days": 4,
     "latest": {
-     "at": "2026-10-15T15:34:06Z",
+     "at": "2026-10-16T09:04:54Z",
      "checks_failed": 0,
      "checks_passed": 57,
-     "commit": "c911351",
+     "commit": "de88440",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/38761473229"
+     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/38877997184"
     },
-    "runs": 23,
-    "runs_passed": 23,
-    "streak_days": 3,
+    "runs": 25,
+    "runs_passed": 25,
+    "streak_days": 4,
     "window_days": 30,
-    "written_at": "2026-10-15T15:37:03Z"
+    "written_at": "2026-10-16T09:07:50Z"
    }
   },
   "kubernetes-postgres-recovery": {
    "kind": {
-    "days_with_runs": 2,
-    "green_days": 2,
+    "days_with_runs": 3,
+    "green_days": 3,
     "latest": {
-     "at": "2026-10-15T15:34:09Z",
+     "at": "2026-10-16T09:03:09Z",
      "checks_failed": 0,
      "checks_passed": 19,
-     "commit": "d3c3127",
+     "commit": "d947cb3",
      "conclusion": "success",
      "measured": [
-      "point-in-time restore: ready in 50s",
-      "promotion: a new primary 23s after the kill",
-      "write gap: 26.1s without an acknowledged write (28 writes refused or timed out)",
+      "point-in-time restore: ready in 51s",
+      "promotion: a new primary 4s after the kill",
+      "write gap: 6.1s without an acknowledged write (10 writes refused or timed out)",
       "restore from the bucket alone: ready in 52s"
      ],
-     "url": "https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/runs/38761478960"
+     "url": "https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/runs/38877797748"
     },
-    "runs": 11,
-    "runs_passed": 11,
-    "streak_days": 2,
+    "runs": 13,
+    "runs_passed": 13,
+    "streak_days": 3,
     "window_days": 30,
-    "written_at": "2026-10-15T15:41:46Z"
+    "written_at": "2026-10-16T09:10:34Z"
    }
   },
   "kubernetes-supply-chain-admission": {
    "kind": {
-    "days_with_runs": 3,
+    "days_with_runs": 4,
     "green_days": 3,
     "latest": {
-     "at": "2026-10-15T15:34:08Z",
+     "at": "2026-10-16T09:18:19Z",
      "checks_failed": 0,
      "checks_passed": 9,
-     "commit": "7f124a1",
+     "commit": "44a216d",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/38761476794"
+     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/38879536431"
     },
-    "runs": 24,
-    "runs_passed": 21,
-    "streak_days": 3,
+    "runs": 26,
+    "runs_passed": 22,
+    "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-10-15T15:37:25Z"
+    "written_at": "2026-10-16T09:20:43Z"
    }
   }
  },
- "measured_at": "2026-10-15 18:25 UTC",
+ "measured_at": "2026-10-16 11:42 UTC",
  "operations": {
-  "ci_runs_failed": 886,
-  "ci_runs_succeeded": 13652,
-  "commits": 3489,
-  "commits_by_owner": 3180,
+  "ci_runs_failed": 936,
+  "ci_runs_succeeded": 13445,
+  "commits": 3442,
+  "commits_by_owner": 3132,
   "dependency_updates": {
-   "measured": 326,
+   "measured": 316,
    "median_minutes": 4.3,
-   "merged": 326,
+   "merged": 316,
    "oldest_open_days": 0,
    "open": 0,
    "p90_minutes": 7.0,
    "repositories": 100
   },
-  "releases": 685,
+  "releases": 692,
   "repositories": 101,
   "repositories_changed": 101,
   "repositories_released": 90,
-  "since": "2026-09-15",
+  "since": "2026-09-16",
   "unread": [],
   "window_days": 30
  },
@@ -929,7 +929,7 @@
   "static": 89,
   "unread": []
  },
- "release_tags": 1252,
+ "release_tags": 1259,
  "repositories": 92,
  "restore_repositories": 48,
  "restore_scripts": 73,
@@ -947,10 +947,10 @@
    "Maintained": 38,
    "Pinned-Dependencies": 101,
    "SAST": 30,
-   "Signed-Releases": 10,
+   "Signed-Releases": 12,
    "Token-Permissions": 1
   },
-  "date": "2026-10-15T18:13:05Z",
+  "date": "2026-10-15T22:41:49Z",
   "lowest": 6.4,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
@@ -988,7 +988,7 @@
    "external-disk-backup": 6.6,
    "fleet-ops": 6.4,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
-   "game-server-wireguard-relay-docker-compose": 7.2,
+   "game-server-wireguard-relay-docker-compose": 7.1,
    "gaseous-server-using-docker-compose": 7.2,
    "ghost-traefik-letsencrypt-docker-compose": 7.8,
    "gitea-traefik-letsencrypt-docker-compose": 7.9,
@@ -1037,7 +1037,7 @@
    "seafile-traefik-letsencrypt-docker-compose": 7.8,
    "self-host-repo-hardening-runbook": 7.1,
    "sftp-traefik-letsencrypt-docker-compose": 7.9,
-   "siyuan-docker-compose": 7.9,
+   "siyuan-docker-compose": 7.8,
    "slack-notifications-cloudwatch": 7.3,
    "sonarqube-traefik-letsencrypt-docker-compose": 7.9,
    "sops-env-git": 6.7,
@@ -1137,11 +1137,11 @@
    "found_in": "aws-eks-reference-platform",
    "posted": "2026-10-15",
    "project": "kubernetes-sigs/metrics-server",
-   "replies": 15,
+   "replies": 16,
    "role": "comment",
    "state": "on an issue open",
    "title": "Aggregated APIService's /openapi/v2 gets corrupted (ArbitraryKeys/SchemaProps/SwaggerSchemaProps leak as literal schema properties) when the APIService's kube-openapi is newer than the parent apiserver's",
-   "updated": "2026-10-15",
+   "updated": "2026-10-16",
    "url": "https://github.com/kubernetes-sigs/metrics-server/issues/1868#issuecomment-6195863017"
   }
  ]
