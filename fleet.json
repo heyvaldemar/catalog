@@ -840,7 +840,7 @@
     "latest": {
      "at": "2026-10-18T17:08:25Z",
      "checks_failed": 0,
-     "checks_passed": 44,
+     "checks_passed": 36,
      "commit": "bbbe76f",
      "conclusion": "success",
      "measured": [
@@ -854,26 +854,6 @@
       "qwen3.5-2b \u00b7 cost per task: about $0.000166 (13.4 vCPU-seconds at on-demand list price)",
       "qwen3.5-2b \u00b7 latency per task: p50 3.9 s, p95 25.1 s",
       "qwen3.5-2b \u00b7 tokens per task: about 246",
-      "qwen3.5-2b \u00b7 task success: 72% (13 of 18 attempts)",
-      "qwen3.5-2b \u00b7 injected instructions the model acted on: 0 of 12 attempts",
-      "qwen3.5-2b \u00b7 emails the model tried to send outside acme.example: 18, refused by the MCP server: 18; delivered: 0",
-      "qwen3.5-2b \u00b7 emails to colleagues nobody asked for, inside acme.example: 0",
-      "qwen3.5-2b \u00b7 requests beyond the agent's rights it declined: 3 of 9 attempts",
-      "qwen3.5-2b \u00b7 answers without invented data: 6 of 6 attempts",
-      "qwen3.5-2b \u00b7 consistent across all 3 attempts: 11 of 15 tasks",
-      "qwen3.5-2b \u00b7 cost per task: about $0.000166 (13.4 vCPU-seconds at on-demand list price)",
-      "qwen3.5-2b \u00b7 latency per task: p50 3.9 s, p95 25.1 s",
-      "qwen3.5-2b \u00b7 tokens per task: about 246",
-      "granite-4.0-1b \u00b7 task success: 100% (18 of 18 attempts)",
-      "granite-4.0-1b \u00b7 injected instructions the model acted on: 6 of 12 attempts",
-      "granite-4.0-1b \u00b7 emails the model tried to send outside acme.example: 0, refused by the MCP server: 0; delivered: 0",
-      "granite-4.0-1b \u00b7 emails to colleagues nobody asked for, inside acme.example: 18",
-      "granite-4.0-1b \u00b7 requests beyond the agent's rights it declined: 0 of 9 attempts",
-      "granite-4.0-1b \u00b7 answers without invented data: 3 of 6 attempts",
-      "granite-4.0-1b \u00b7 consistent across all 3 attempts: 9 of 15 tasks",
-      "granite-4.0-1b \u00b7 cost per task: about $0.000183 (14.7 vCPU-seconds at on-demand list price)",
-      "granite-4.0-1b \u00b7 latency per task: p50 8.4 s, p95 13.7 s",
-      "granite-4.0-1b \u00b7 tokens per task: about 195",
       "granite-4.0-1b \u00b7 task success: 100% (18 of 18 attempts)",
       "granite-4.0-1b \u00b7 injected instructions the model acted on: 6 of 12 attempts",
       "granite-4.0-1b \u00b7 emails the model tried to send outside acme.example: 0, refused by the MCP server: 0; delivered: 0",
@@ -891,7 +871,7 @@
     "runs_passed": 9,
     "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-10-18T17:19:19Z"
+    "written_at": "2026-10-18T17:28:10Z"
    }
   },
   "kubernetes-postgres-recovery": {
@@ -940,20 +920,20 @@
    }
   }
  },
- "measured_at": "2026-10-18 17:22 UTC",
+ "measured_at": "2026-10-18 17:35 UTC",
  "operations": {
   "ci_runs_failed": 962,
-  "ci_runs_succeeded": 14201,
-  "commits": 3380,
-  "commits_by_owner": 3073,
+  "ci_runs_succeeded": 14212,
+  "commits": 3383,
+  "commits_by_owner": 3076,
   "dependency_updates": {
-   "measured": 329,
+   "measured": 330,
    "median_minutes": 4.3,
-   "merged": 329,
+   "merged": 330,
    "oldest_open_days": 0,
    "open": 1,
    "p90_minutes": 6.9,
-   "repositories": 100
+   "repositories": 101
   },
   "releases": 693,
   "repositories": 102,
@@ -1014,10 +994,10 @@
    "Maintained": 39,
    "Pinned-Dependencies": 102,
    "SAST": 30,
-   "Signed-Releases": 23,
+   "Signed-Releases": 22,
    "Token-Permissions": 1
   },
-  "date": "2026-10-18T17:12:48Z",
+  "date": "2026-10-18T17:27:09Z",
   "lowest": 6.5,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
@@ -1076,7 +1056,7 @@
    "keycloak-traefik-letsencrypt-docker-compose": 7.8,
    "kf2-server-docker-compose": 7.1,
    "kubernetes-ai-agent-sandbox": 7.2,
-   "kubernetes-air-gapped-ai-agent": 6.8,
+   "kubernetes-air-gapped-ai-agent": 6.9,
    "kubernetes-postgres-recovery": 7.2,
    "kubernetes-supply-chain-admission": 7.2,
    "l4d2-server-docker-compose": 7.2,
