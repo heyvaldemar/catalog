@@ -8,7 +8,7 @@ This file is generated. Nothing in it is a claim of its own: the badge is each w
 
 <!-- fleet-catalog:start -->
 
-*92 repositories. The badge says whether each one boots in its own CI; whether its pins are current is a separate daily check that the fleet acts on, so a pin one version behind does not turn a working template red. The release is the tag GitHub has. Rebuilt by [fleet-ops](https://github.com/heyvaldemar/fleet-ops) once a day and rewritten when a row changes; this table last changed 2026-10-18 15:59 UTC.*
+*93 repositories. The badge says whether each one boots in its own CI; whether its pins are current is a separate daily check that the fleet acts on, so a pin one version behind does not turn a working template red. The release is the tag GitHub has. Rebuilt by [fleet-ops](https://github.com/heyvaldemar/fleet-ops) once a day and rewritten when a row changes; this table last changed 2026-10-18 17:22 UTC.*
 
 ## Self-hosted applications behind Traefik with Let's Encrypt (49)
 
@@ -107,12 +107,13 @@ This file is generated. Nothing in it is a claim of its own: the badge is each w
 | [Amazon RDS](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform) | [v1.2.3](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/releases/tag/v1.2.3) · 2026-10-17 | [![CI](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/actions/workflows/terraform-verification.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/actions/workflows/terraform-verification.yml) |
 | [Amazon Route53](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform) | [v1.2.3](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform/releases/tag/v1.2.3) · 2026-10-17 | [![CI](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform/actions/workflows/terraform-verification.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform/actions/workflows/terraform-verification.yml) |
 
-## Kubernetes platforms (4)
+## Kubernetes platforms (5)
 
 | Repository | Latest release | CI |
 | :--- | :--- | :--- |
 | [AWS EKS Reference Platform](https://github.com/heyvaldemar/aws-eks-reference-platform) | [v1.2.0](https://github.com/heyvaldemar/aws-eks-reference-platform/releases/tag/v1.2.0) · 2026-10-15 | [![CI](https://github.com/heyvaldemar/aws-eks-reference-platform/actions/workflows/kind-e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/aws-eks-reference-platform/actions/workflows/kind-e2e.yml) |
 | [Kubernetes AI Agent Sandbox](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox) | [v1.1.0](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/releases/tag/v1.1.0) · 2026-10-15 | [![CI](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/workflows/e2e.yml) |
+| [Kubernetes Air Gapped AI Agent](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent) | [v1.0.0](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent/releases/tag/v1.0.0) · 2026-10-18 | [![CI](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent/actions/workflows/e2e.yml) |
 | [Kubernetes Postgres Recovery](https://github.com/heyvaldemar/kubernetes-postgres-recovery) | [v1.0.0](https://github.com/heyvaldemar/kubernetes-postgres-recovery/releases/tag/v1.0.0) · 2026-10-14 | [![CI](https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/workflows/e2e.yml) |
 | [Kubernetes Supply Chain Admission](https://github.com/heyvaldemar/kubernetes-supply-chain-admission) | [v1.0.0](https://github.com/heyvaldemar/kubernetes-supply-chain-admission/releases/tag/v1.0.0) · 2026-10-13 | [![CI](https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/workflows/e2e.yml) |
 
