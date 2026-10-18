@@ -791,7 +791,7 @@
     "runs_passed": 1,
     "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-10-18T09:19:50Z"
+    "written_at": "2026-10-18T12:06:47Z"
    },
    "kind": {
     "days_with_runs": 8,
@@ -809,7 +809,7 @@
     "runs_passed": 31,
     "streak_days": 6,
     "window_days": 30,
-    "written_at": "2026-10-18T09:19:46Z"
+    "written_at": "2026-10-18T12:06:44Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -817,19 +817,19 @@
     "days_with_runs": 6,
     "green_days": 6,
     "latest": {
-     "at": "2026-10-18T08:53:56Z",
+     "at": "2026-10-18T15:47:43Z",
      "checks_failed": 0,
      "checks_passed": 57,
-     "commit": "a75f23a",
+     "commit": "e8295a9",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/39113223585"
+     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/39142083948"
     },
-    "runs": 28,
-    "runs_passed": 28,
+    "runs": 29,
+    "runs_passed": 29,
     "streak_days": 6,
     "window_days": 30,
-    "written_at": "2026-10-18T08:56:33Z"
+    "written_at": "2026-10-18T15:50:49Z"
    }
   },
   "kubernetes-postgres-recovery": {
@@ -854,7 +854,7 @@
     "runs_passed": 15,
     "streak_days": 5,
     "window_days": 30,
-    "written_at": "2026-10-18T08:59:28Z"
+    "written_at": "2026-10-18T12:11:44Z"
    }
   },
   "kubernetes-supply-chain-admission": {
@@ -874,26 +874,26 @@
     "runs_passed": 24,
     "streak_days": 3,
     "window_days": 30,
-    "written_at": "2026-10-18T09:09:55Z"
+    "written_at": "2026-10-18T12:10:29Z"
    }
   }
  },
- "measured_at": "2026-10-18 11:22 UTC",
+ "measured_at": "2026-10-18 15:59 UTC",
  "operations": {
   "ci_runs_failed": 955,
-  "ci_runs_succeeded": 14091,
-  "commits": 3455,
-  "commits_by_owner": 3139,
+  "ci_runs_succeeded": 14137,
+  "commits": 3358,
+  "commits_by_owner": 3048,
   "dependency_updates": {
-   "measured": 327,
+   "measured": 328,
    "median_minutes": 4.3,
-   "merged": 327,
+   "merged": 328,
    "oldest_open_days": 0,
    "open": 0,
    "p90_minutes": 6.9,
    "repositories": 100
   },
-  "releases": 739,
+  "releases": 691,
   "repositories": 101,
   "repositories_changed": 101,
   "repositories_released": 89,
@@ -929,7 +929,7 @@
   "static": 89,
   "unread": []
  },
- "release_tags": 1337,
+ "release_tags": 1338,
  "repositories": 92,
  "restore_repositories": 48,
  "restore_scripts": 73,
@@ -947,11 +947,11 @@
    "Maintained": 38,
    "Pinned-Dependencies": 101,
    "SAST": 30,
-   "Signed-Releases": 25,
+   "Signed-Releases": 22,
    "Token-Permissions": 1
   },
-  "date": "2026-10-18T04:00:42Z",
-  "lowest": 6.4,
+  "date": "2026-10-18T15:47:50Z",
+  "lowest": 6.5,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
   "scored": 101,
@@ -975,7 +975,7 @@
    "blackmesa-server-docker-compose": 7,
    "chatops-privilege-wall": 7.1,
    "clean-server-logs-iis-exchange": 7.4,
-   "confluence-traefik-letsencrypt-docker-compose": 7.8,
+   "confluence-traefik-letsencrypt-docker-compose": 7.9,
    "cs2-classic-server-docker-compose": 7.2,
    "cs2-server-docker-compose": 7.2,
    "dashy-traefik-letsencrypt-docker-compose": 7.9,
@@ -986,7 +986,7 @@
    "docmost-traefik-letsencrypt-docker-compose": 7.9,
    "dozzle-traefik-letsencrypt-docker-compose": 7.2,
    "external-disk-backup": 6.6,
-   "fleet-ops": 6.4,
+   "fleet-ops": 6.5,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
    "game-server-wireguard-relay-docker-compose": 7.2,
    "gaseous-server-using-docker-compose": 7.1,
@@ -994,7 +994,7 @@
    "gitea-traefik-letsencrypt-docker-compose": 7.9,
    "gitignore-template": 6.9,
    "gitlab-traefik-letsencrypt-docker-compose": 7.9,
-   "glpi-traefik-letsencrypt-docker-compose": 7.8,
+   "glpi-traefik-letsencrypt-docker-compose": 7.9,
    "grafana-traefik-letsencrypt-docker-compose": 7.8,
    "heyvaldemar": 6.6,
    "heyvaldemar-com-comments": 6.6,
@@ -1004,7 +1004,7 @@
    "immich-traefik-letsencrypt-docker-compose": 7.2,
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.2,
-   "jira-traefik-letsencrypt-docker-compose": 7.8,
+   "jira-traefik-letsencrypt-docker-compose": 7.9,
    "joomla-traefik-letsencrypt-docker-compose": 7.9,
    "keycloak-traefik-letsencrypt-docker-compose": 7.8,
    "kf2-server-docker-compose": 7.1,
@@ -1126,6 +1126,12 @@
    "found_in": "kubernetes-supply-chain-admission",
    "posted": "2026-10-14",
    "project": "kyverno/kyverno",
+   "related": {
+    "merged": "2026-10-17",
+    "state": "merged",
+    "title": "fix(imageverify): extract newest attestation for ImageValidatingPolicy",
+    "url": "https://github.com/kyverno/kyverno/pull/18049"
+   },
    "replies": 2,
    "role": "issue with a reproduction",
    "state": "closed: completed",
