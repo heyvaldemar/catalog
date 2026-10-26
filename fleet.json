@@ -1,6 +1,6 @@
 {
  "bestpractices": {
-  "date": "2026-10-20",
+  "date": "2026-10-25",
   "ids": {
    "affine-traefik-letsencrypt-docker-compose": 14878,
    "amazon-ec2-gitlab-pipeline-terraform": 14907,
@@ -87,6 +87,7 @@
    "sops-env-git": 14913,
    "systemd-timer-table": 14912,
    "terminal-christmas-tree": 14921,
+   "terraria-server-docker-compose": 15914,
    "tf2-server-docker-compose": 14886,
    "unhealthy-watchdog": 14906,
    "uptime-kuma-traefik-letsencrypt-docker-compose": 14857,
@@ -187,6 +188,7 @@
    "sops-env-git": "passing",
    "systemd-timer-table": "passing",
    "terminal-christmas-tree": "passing",
+   "terraria-server-docker-compose": "passing",
    "tf2-server-docker-compose": "passing",
    "unhealthy-watchdog": "passing",
    "uptime-kuma-traefik-letsencrypt-docker-compose": "passing",
@@ -201,8 +203,8 @@
    "zammad-traefik-letsencrypt-docker-compose": "passing",
    "zomboid-server-docker-compose": "passing"
   },
-  "passing": 98,
-  "registered": 98,
+  "passing": 99,
+  "registered": 99,
   "short": {},
   "unread": [],
   "unregistered": [
@@ -210,6 +212,7 @@
    "gitignore-template",
    "heyvaldemar",
    "heyvaldemar-com-comments",
+   "kubectl-docker",
    "machine-learning-deep-learning-courses",
    "ukraine-support-social-networks-assets",
    "ukraine-support-website-button-stripe"
@@ -784,9 +787,9 @@
  "groups": {
   "Kubernetes platforms": 5,
   "Terraform pipelines on AWS": 8,
-  "game servers": 16,
+  "game servers": 17,
   "operations tools and scripts": 11,
-  "other stacks": 6,
+  "other stacks": 7,
   "self-hosted applications behind Traefik": 50
  },
  "live_status": {
@@ -810,33 +813,33 @@
     "runs_passed": 2,
     "streak_days": 2,
     "window_days": 30,
-    "written_at": "2026-10-25T09:41:57Z"
+    "written_at": "2026-10-26T10:46:25Z"
    },
    "kind": {
-    "days_with_runs": 15,
-    "green_days": 14,
+    "days_with_runs": 16,
+    "green_days": 15,
     "latest": {
-     "at": "2026-10-25T09:24:17Z",
+     "at": "2026-10-26T10:30:42Z",
      "checks_failed": 0,
      "checks_passed": 112,
      "commit": "0640afc",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/40180498750"
+     "url": "https://github.com/heyvaldemar/aws-eks-reference-platform/actions/runs/40307978102"
     },
-    "runs": 56,
-    "runs_passed": 43,
-    "streak_days": 13,
+    "runs": 57,
+    "runs_passed": 44,
+    "streak_days": 14,
     "window_days": 30,
-    "written_at": "2026-10-25T09:41:53Z"
+    "written_at": "2026-10-26T10:46:19Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
    "kind": {
-    "days_with_runs": 13,
-    "green_days": 13,
+    "days_with_runs": 14,
+    "green_days": 14,
     "latest": {
-     "at": "2026-10-25T09:12:18Z",
+     "at": "2026-10-26T10:13:40Z",
      "checks_failed": 0,
      "checks_passed": 62,
      "commit": "7a13a20",
@@ -844,13 +847,13 @@
      "measured": [
       "a new sandbox pod's first query, before the network plugin knows the pod: answered by the cluster's CoreDNS (the gate is why the agents do not start until it stops)"
      ],
-     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/40179675355"
+     "url": "https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/runs/40305738469"
     },
-    "runs": 42,
-    "runs_passed": 42,
-    "streak_days": 13,
+    "runs": 43,
+    "runs_passed": 43,
+    "streak_days": 14,
     "window_days": 30,
-    "written_at": "2026-10-25T09:15:47Z"
+    "written_at": "2026-10-26T10:17:21Z"
    }
   },
   "kubernetes-air-gapped-ai-agent": {
@@ -891,7 +894,7 @@
     "runs_passed": 7,
     "streak_days": 5,
     "window_days": 30,
-    "written_at": "2026-10-25T11:10:29Z"
+    "written_at": "2026-10-25T12:42:49Z"
    },
    "kind": {
     "days_with_runs": 8,
@@ -1120,75 +1123,75 @@
     "runs_passed": 63,
     "streak_days": 2,
     "window_days": 30,
-    "written_at": "2026-10-25T11:10:23Z"
+    "written_at": "2026-10-25T12:42:44Z"
    }
   },
   "kubernetes-postgres-recovery": {
    "kind": {
-    "days_with_runs": 12,
-    "green_days": 12,
+    "days_with_runs": 13,
+    "green_days": 13,
     "latest": {
-     "at": "2026-10-25T09:10:46Z",
+     "at": "2026-10-26T10:10:11Z",
      "checks_failed": 0,
      "checks_passed": 19,
      "commit": "3c8e4e0",
      "conclusion": "success",
      "measured": [
-      "point-in-time restore: ready in 55s",
-      "promotion: a new primary 5s after the kill",
-      "write gap: 7.8s without an acknowledged write (11 writes refused or timed out)",
+      "point-in-time restore: ready in 52s",
+      "promotion: a new primary 20s after the kill",
+      "write gap: 23.9s without an acknowledged write (28 writes refused or timed out)",
       "restore from the bucket alone: ready in 53s"
      ],
-     "url": "https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/runs/40179570406"
+     "url": "https://github.com/heyvaldemar/kubernetes-postgres-recovery/actions/runs/40305275825"
     },
-    "runs": 25,
-    "runs_passed": 25,
-    "streak_days": 12,
+    "runs": 26,
+    "runs_passed": 26,
+    "streak_days": 13,
     "window_days": 30,
-    "written_at": "2026-10-25T09:18:24Z"
+    "written_at": "2026-10-26T10:17:34Z"
    }
   },
   "kubernetes-supply-chain-admission": {
    "kind": {
-    "days_with_runs": 13,
-    "green_days": 12,
+    "days_with_runs": 14,
+    "green_days": 13,
     "latest": {
-     "at": "2026-10-25T09:25:32Z",
+     "at": "2026-10-26T10:32:24Z",
      "checks_failed": 0,
      "checks_passed": 20,
      "commit": "c828e8a",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/40180585316"
+     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/40308201120"
     },
-    "runs": 49,
-    "runs_passed": 42,
-    "streak_days": 10,
+    "runs": 50,
+    "runs_passed": 43,
+    "streak_days": 11,
     "window_days": 30,
-    "written_at": "2026-10-25T09:29:30Z"
+    "written_at": "2026-10-26T10:35:23Z"
    }
   }
  },
- "measured_at": "2026-10-25 11:47 UTC",
+ "measured_at": "2026-10-26 11:00 UTC",
  "operations": {
-  "ci_runs_failed": 1028,
-  "ci_runs_succeeded": 14114,
-  "commits": 2932,
-  "commits_by_owner": 2597,
+  "ci_runs_failed": 909,
+  "ci_runs_succeeded": 12817,
+  "commits": 2791,
+  "commits_by_owner": 2469,
   "dependency_updates": {
-   "measured": 348,
+   "measured": 331,
    "median_minutes": 4.3,
-   "merged": 348,
-   "oldest_open_days": 1,
-   "open": 2,
-   "p90_minutes": 7.1,
-   "repositories": 103
+   "merged": 331,
+   "oldest_open_days": 0,
+   "open": 3,
+   "p90_minutes": 7.4,
+   "repositories": 104
   },
-  "releases": 773,
-  "repositories": 105,
-  "repositories_changed": 105,
-  "repositories_released": 87,
-  "since": "2026-09-25",
+  "releases": 766,
+  "repositories": 107,
+  "repositories_changed": 107,
+  "repositories_released": 88,
+  "since": "2026-09-26",
   "unread": [],
   "window_days": 30
  },
@@ -1225,32 +1228,32 @@
   "static": 163,
   "unread": []
  },
- "release_tags": 1610,
- "repositories": 96,
+ "release_tags": 1632,
+ "repositories": 98,
  "restore_repositories": 49,
  "restore_scripts": 74,
  "restore_scripts_run": 74,
  "scorecard": {
   "below_ten": {
    "Binary-Artifacts": 1,
-   "Branch-Protection": 105,
+   "Branch-Protection": 107,
    "CI-Tests": 8,
-   "CII-Best-Practices": 105,
-   "Code-Review": 105,
-   "Contributors": 105,
-   "Fuzzing": 105,
+   "CII-Best-Practices": 107,
+   "Code-Review": 107,
+   "Contributors": 107,
+   "Fuzzing": 107,
    "License": 2,
-   "Maintained": 41,
-   "Pinned-Dependencies": 105,
-   "SAST": 30,
-   "Signed-Releases": 37,
+   "Maintained": 43,
+   "Pinned-Dependencies": 107,
+   "SAST": 31,
+   "Signed-Releases": 36,
    "Token-Permissions": 1
   },
-  "date": "2026-10-25T10:17:18Z",
-  "lowest": 6.5,
-  "lowest_repository": "fleet-ops",
+  "date": "2026-10-26T10:46:19Z",
+  "lowest": 6.3,
+  "lowest_repository": "terraria-server-docker-compose",
   "median": 7.3,
-  "scored": 105,
+  "scored": 107,
   "scores": {
    "affine-traefik-letsencrypt-docker-compose": 7.8,
    "ama": 6.9,
@@ -1262,7 +1265,7 @@
    "amazon-lightsail-instance-pipeline-terraform": 7.3,
    "amazon-rds-pipeline-terraform": 7.3,
    "amazon-route53-pipeline-terraform": 7.3,
-   "anythingllm-traefik-letsencrypt-docker-compose": 7.1,
+   "anythingllm-traefik-letsencrypt-docker-compose": 7.2,
    "audiobookshelf-traefik-letsencrypt-docker-compose": 7.1,
    "authelia-traefik-letsencrypt-docker-compose": 7.9,
    "aws-eks-reference-platform": 7.2,
@@ -1279,9 +1282,9 @@
    "deadman-switch": 6.6,
    "dify-traefik-letsencrypt-docker-compose": 7.2,
    "disable-inactive-users-active-directory": 7.4,
-   "diun-docker-compose": 7.2,
-   "docmost-traefik-letsencrypt-docker-compose": 7.8,
-   "dozzle-traefik-letsencrypt-docker-compose": 7.2,
+   "diun-docker-compose": 7.1,
+   "docmost-traefik-letsencrypt-docker-compose": 7.9,
+   "dozzle-traefik-letsencrypt-docker-compose": 7.1,
    "external-disk-backup": 6.6,
    "fleet-ops": 6.5,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
@@ -1291,21 +1294,22 @@
    "gitea-traefik-letsencrypt-docker-compose": 7.9,
    "gitignore-template": 6.9,
    "gitlab-traefik-letsencrypt-docker-compose": 7.8,
-   "glpi-traefik-letsencrypt-docker-compose": 7.8,
+   "glpi-traefik-letsencrypt-docker-compose": 7.9,
    "grafana-traefik-letsencrypt-docker-compose": 7.8,
    "heyvaldemar": 6.6,
    "heyvaldemar-com-comments": 6.6,
    "homeassistant-traefik-letsencrypt-docker-compose": 7.9,
    "homebox-traefik-letsencrypt-docker-compose": 7.8,
    "homepage-traefik-letsencrypt-docker-compose": 7.2,
-   "humanitz-server-docker-compose": 6.5,
+   "humanitz-server-docker-compose": 6.6,
    "immich-traefik-letsencrypt-docker-compose": 7.2,
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.1,
    "jira-traefik-letsencrypt-docker-compose": 7.9,
    "joomla-traefik-letsencrypt-docker-compose": 7.8,
    "keycloak-traefik-letsencrypt-docker-compose": 7.9,
-   "kf2-server-docker-compose": 7.1,
+   "kf2-server-docker-compose": 7,
+   "kubectl-docker": 6.8,
    "kubernetes-ai-agent-sandbox": 7.1,
    "kubernetes-air-gapped-ai-agent": 7.2,
    "kubernetes-postgres-recovery": 7.2,
@@ -1322,7 +1326,7 @@
    "navidrome-traefik-letsencrypt-docker-compose": 7.1,
    "nextcloud-onlyoffice-traefik-letsencrypt-docker-compose": 7.8,
    "nextcloud-traefik-letsencrypt-docker-compose": 7.8,
-   "ollama-traefik-letsencrypt-docker-compose": 7.9,
+   "ollama-traefik-letsencrypt-docker-compose": 7.8,
    "operating-system-update-pipeline": 7.3,
    "otrs-traefik-letsencrypt-docker-compose": 7.9,
    "outline-keycloak-traefik-letsencrypt-docker-compose": 7.8,
@@ -1335,13 +1339,14 @@
    "romm-traefik-letsencrypt-docker-compose": 7.1,
    "seafile-traefik-letsencrypt-docker-compose": 7.8,
    "self-host-repo-hardening-runbook": 7.1,
-   "sftp-traefik-letsencrypt-docker-compose": 7.8,
+   "sftp-traefik-letsencrypt-docker-compose": 7.9,
    "siyuan-docker-compose": 7.9,
    "slack-notifications-cloudwatch": 7.3,
    "sonarqube-traefik-letsencrypt-docker-compose": 7.9,
    "sops-env-git": 6.7,
    "systemd-timer-table": 6.6,
    "terminal-christmas-tree": 7.3,
+   "terraria-server-docker-compose": 6.3,
    "tf2-server-docker-compose": 7.2,
    "ukraine-support-social-networks-assets": 7.2,
    "ukraine-support-website-button-stripe": 7.2,
@@ -1380,7 +1385,7 @@
    "role": "pull request",
    "state": "open",
    "title": "docs(ivpol): extractPayload returns the in-toto statement for intoto attestations",
-   "updated": "2026-10-14",
+   "updated": "2026-10-26",
    "url": "https://github.com/kyverno/website/pull/2201"
   },
   {
@@ -1459,6 +1464,44 @@
    "title": "feat: verify OCI image volume references by default",
    "updated": "2026-10-22",
    "url": "https://github.com/kyverno/kyverno/pull/17555#issuecomment-6245868388"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-24",
+   "project": "kyverno/kyverno",
+   "related": {
+    "merged": "2026-10-26",
+    "state": "merged",
+    "title": "fix(webhook): allow configuring generation label protection and honor failure policy ignore",
+    "url": "https://github.com/kyverno/kyverno/pull/18222"
+   },
+   "replies": 9,
+   "role": "comment",
+   "state": "on an issue closed: completed",
+   "title": "[Bug] The managed cluster has the following webhooks, that might prevent stop/start cluster operations",
+   "updated": "2026-10-26",
+   "url": "https://github.com/kyverno/kyverno/issues/18172#issuecomment-6378001319"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-25",
+   "project": "kyverno/website",
+   "role": "review suggestion, applied as written",
+   "state": "on a pull request that is open",
+   "title": "docs(installation): document protectGenerationLabels flag and AKS stop/start workaround",
+   "updated": "2026-10-26",
+   "url": "https://github.com/kyverno/website/pull/2217#discussion_r4372415231"
+  },
+  {
+   "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-10-25",
+   "project": "kyverno/kyverno",
+   "replies": 1,
+   "role": "feature request",
+   "state": "open",
+   "title": "[Feature] Extract image volumes (spec.volumes[].image.reference) in the built-in image extractors",
+   "updated": "2026-10-25",
+   "url": "https://github.com/kyverno/kyverno/issues/18272"
   }
  ]
 }
