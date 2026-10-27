@@ -1,6 +1,6 @@
 {
  "bestpractices": {
-  "date": "2026-10-25",
+  "date": "2026-10-27",
   "ids": {
    "affine-traefik-letsencrypt-docker-compose": 14878,
    "amazon-ec2-gitlab-pipeline-terraform": 14907,
@@ -52,6 +52,7 @@
    "joomla-traefik-letsencrypt-docker-compose": 14874,
    "keycloak-traefik-letsencrypt-docker-compose": 14832,
    "kf2-server-docker-compose": 14892,
+   "kubectl-docker": 15978,
    "kubernetes-ai-agent-sandbox": 15463,
    "kubernetes-air-gapped-ai-agent": 15713,
    "kubernetes-postgres-recovery": 15496,
@@ -153,6 +154,7 @@
    "joomla-traefik-letsencrypt-docker-compose": "passing",
    "keycloak-traefik-letsencrypt-docker-compose": "passing",
    "kf2-server-docker-compose": "passing",
+   "kubectl-docker": "passing",
    "kubernetes-ai-agent-sandbox": "passing",
    "kubernetes-air-gapped-ai-agent": "passing",
    "kubernetes-postgres-recovery": "passing",
@@ -203,8 +205,8 @@
    "zammad-traefik-letsencrypt-docker-compose": "passing",
    "zomboid-server-docker-compose": "passing"
   },
-  "passing": 99,
-  "registered": 99,
+  "passing": 100,
+  "registered": 100,
   "short": {},
   "unread": [],
   "unregistered": [
@@ -212,7 +214,6 @@
    "gitignore-template",
    "heyvaldemar",
    "heyvaldemar-com-comments",
-   "kubectl-docker",
    "machine-learning-deep-learning-courses",
    "ukraine-support-social-networks-assets",
    "ukraine-support-website-button-stripe"
@@ -813,7 +814,7 @@
     "runs_passed": 2,
     "streak_days": 2,
     "window_days": 30,
-    "written_at": "2026-10-26T10:46:25Z"
+    "written_at": "2026-10-26T14:24:05Z"
    },
    "kind": {
     "days_with_runs": 16,
@@ -831,7 +832,7 @@
     "runs_passed": 44,
     "streak_days": 14,
     "window_days": 30,
-    "written_at": "2026-10-26T10:46:19Z"
+    "written_at": "2026-10-26T14:24:01Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -853,7 +854,7 @@
     "runs_passed": 43,
     "streak_days": 14,
     "window_days": 30,
-    "written_at": "2026-10-26T10:17:21Z"
+    "written_at": "2026-10-26T14:27:26Z"
    }
   },
   "kubernetes-air-gapped-ai-agent": {
@@ -894,7 +895,7 @@
     "runs_passed": 7,
     "streak_days": 5,
     "window_days": 30,
-    "written_at": "2026-10-26T11:15:19Z"
+    "written_at": "2026-10-26T14:30:23Z"
    },
    "kind": {
     "days_with_runs": 9,
@@ -1123,7 +1124,7 @@
     "runs_passed": 64,
     "streak_days": 3,
     "window_days": 30,
-    "written_at": "2026-10-26T11:15:07Z"
+    "written_at": "2026-10-26T14:30:13Z"
    }
   },
   "kubernetes-postgres-recovery": {
@@ -1148,7 +1149,7 @@
     "runs_passed": 26,
     "streak_days": 13,
     "window_days": 30,
-    "written_at": "2026-10-26T10:17:34Z"
+    "written_at": "2026-10-26T14:34:09Z"
    }
   },
   "kubernetes-supply-chain-admission": {
@@ -1168,30 +1169,30 @@
     "runs_passed": 43,
     "streak_days": 11,
     "window_days": 30,
-    "written_at": "2026-10-26T10:35:23Z"
+    "written_at": "2026-10-26T14:32:33Z"
    }
   }
  },
- "measured_at": "2026-10-26 13:22 UTC",
+ "measured_at": "2026-10-27 02:12 UTC",
  "operations": {
-  "ci_runs_failed": 925,
-  "ci_runs_succeeded": 12978,
-  "commits": 2783,
-  "commits_by_owner": 2461,
+  "ci_runs_failed": 915,
+  "ci_runs_succeeded": 12624,
+  "commits": 2698,
+  "commits_by_owner": 2364,
   "dependency_updates": {
-   "measured": 332,
+   "measured": 337,
    "median_minutes": 4.3,
-   "merged": 332,
-   "oldest_open_days": 0,
+   "merged": 337,
+   "oldest_open_days": 1,
    "open": 2,
    "p90_minutes": 7.5,
    "repositories": 104
   },
-  "releases": 766,
+  "releases": 712,
   "repositories": 107,
   "repositories_changed": 107,
-  "repositories_released": 89,
-  "since": "2026-09-26",
+  "repositories_released": 83,
+  "since": "2026-09-27",
   "unread": [],
   "window_days": 30
  },
@@ -1228,7 +1229,7 @@
   "static": 163,
   "unread": []
  },
- "release_tags": 1633,
+ "release_tags": 1653,
  "repositories": 98,
  "restore_repositories": 49,
  "restore_scripts": 74,
@@ -1246,11 +1247,11 @@
    "Maintained": 43,
    "Pinned-Dependencies": 107,
    "SAST": 31,
-   "Signed-Releases": 36,
+   "Signed-Releases": 40,
    "Token-Permissions": 1
   },
-  "date": "2026-10-26T11:00:47Z",
-  "lowest": 6.3,
+  "date": "2026-10-27T01:57:19Z",
+  "lowest": 6.4,
   "lowest_repository": "terraria-server-docker-compose",
   "median": 7.3,
   "scored": 107,
@@ -1259,7 +1260,7 @@
    "ama": 6.9,
    "amazon-ec2-gitlab-pipeline-terraform": 7.7,
    "amazon-ec2-instance-pipeline-terraform": 7.4,
-   "amazon-ec2-keycloak-docker-swarm-pipeline-terraform": 7.3,
+   "amazon-ec2-keycloak-docker-swarm-pipeline-terraform": 7.2,
    "amazon-ec2-nextcloud-docker-swarm-pipeline-terraform": 7.2,
    "amazon-eks-cluster-pipeline-terraform": 7.3,
    "amazon-lightsail-instance-pipeline-terraform": 7.3,
@@ -1271,7 +1272,7 @@
    "aws-eks-reference-platform": 7.2,
    "aws-kubectl-docker": 8,
    "beszel-traefik-letsencrypt-docker-compose": 7.1,
-   "bitbucket-traefik-letsencrypt-docker-compose": 7.8,
+   "bitbucket-traefik-letsencrypt-docker-compose": 7.9,
    "blackmesa-server-docker-compose": 7,
    "chatops-privilege-wall": 7.2,
    "clean-server-logs-iis-exchange": 7.4,
@@ -1283,33 +1284,33 @@
    "dify-traefik-letsencrypt-docker-compose": 7.2,
    "disable-inactive-users-active-directory": 7.4,
    "diun-docker-compose": 7.1,
-   "docmost-traefik-letsencrypt-docker-compose": 7.9,
+   "docmost-traefik-letsencrypt-docker-compose": 7.8,
    "dozzle-traefik-letsencrypt-docker-compose": 7.1,
    "external-disk-backup": 6.6,
    "fleet-ops": 6.5,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
-   "game-server-wireguard-relay-docker-compose": 7.2,
+   "game-server-wireguard-relay-docker-compose": 7.1,
    "gaseous-server-using-docker-compose": 7.1,
    "ghost-traefik-letsencrypt-docker-compose": 7.9,
    "gitea-traefik-letsencrypt-docker-compose": 7.9,
    "gitignore-template": 6.9,
    "gitlab-traefik-letsencrypt-docker-compose": 7.8,
    "glpi-traefik-letsencrypt-docker-compose": 7.9,
-   "grafana-traefik-letsencrypt-docker-compose": 7.8,
+   "grafana-traefik-letsencrypt-docker-compose": 7.9,
    "heyvaldemar": 6.6,
    "heyvaldemar-com-comments": 6.6,
    "homeassistant-traefik-letsencrypt-docker-compose": 7.9,
    "homebox-traefik-letsencrypt-docker-compose": 7.8,
    "homepage-traefik-letsencrypt-docker-compose": 7.2,
-   "humanitz-server-docker-compose": 6.6,
+   "humanitz-server-docker-compose": 6.5,
    "immich-traefik-letsencrypt-docker-compose": 7.2,
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.1,
-   "jira-traefik-letsencrypt-docker-compose": 7.9,
+   "jira-traefik-letsencrypt-docker-compose": 7.8,
    "joomla-traefik-letsencrypt-docker-compose": 7.8,
    "keycloak-traefik-letsencrypt-docker-compose": 7.9,
    "kf2-server-docker-compose": 7,
-   "kubectl-docker": 6.8,
+   "kubectl-docker": 7.3,
    "kubernetes-ai-agent-sandbox": 7.1,
    "kubernetes-air-gapped-ai-agent": 7.2,
    "kubernetes-postgres-recovery": 7.2,
@@ -1320,7 +1321,7 @@
    "mattermost-data-retention-docker-compose": 7.3,
    "mattermost-traefik-letsencrypt-docker-compose": 7.9,
    "minecraft-server-docker-compose": 7.8,
-   "minecraft-server-proxy-docker-compose": 7.9,
+   "minecraft-server-proxy-docker-compose": 7.8,
    "modernuo-docker": 7,
    "mssql-server-traefik-letsencrypt-docker-compose": 7.8,
    "navidrome-traefik-letsencrypt-docker-compose": 7.1,
@@ -1346,7 +1347,7 @@
    "sops-env-git": 6.7,
    "systemd-timer-table": 6.6,
    "terminal-christmas-tree": 7.3,
-   "terraria-server-docker-compose": 6.3,
+   "terraria-server-docker-compose": 6.4,
    "tf2-server-docker-compose": 7.2,
    "ukraine-support-social-networks-assets": 7.2,
    "ukraine-support-website-button-stripe": 7.2,
@@ -1371,11 +1372,11 @@
    "found_in": "kubernetes-ai-agent-sandbox",
    "posted": "2026-10-13",
    "project": "google/gvisor",
-   "replies": 3,
+   "replies": 4,
    "role": "issue",
    "state": "open",
    "title": "NoSwap (the kubelet default): a gVisor pod's memory limit is not enforced on a node with swap; follow-up to #13267",
-   "updated": "2026-10-18",
+   "updated": "2026-10-27",
    "url": "https://github.com/google/gvisor/issues/15756"
   },
   {
@@ -1403,11 +1404,11 @@
    "found_in": "kubernetes-supply-chain-admission",
    "posted": "2026-10-13",
    "project": "aquasecurity/trivy",
-   "replies": 0,
+   "replies": 1,
    "role": "discussion",
    "state": "open",
    "title": "Exit 0 and no warning when no OS packages are detected, so --exit-code gates pass images Trivy could not read",
-   "updated": "2026-10-13",
+   "updated": "2026-10-27",
    "url": "https://github.com/aquasecurity/trivy/discussions/11403"
   },
   {
@@ -1496,12 +1497,22 @@
    "found_in": "kubernetes-supply-chain-admission",
    "posted": "2026-10-25",
    "project": "kyverno/kyverno",
-   "replies": 1,
+   "replies": 3,
    "role": "feature request",
    "state": "open",
    "title": "[Feature] Extract image volumes (spec.volumes[].image.reference) in the built-in image extractors",
-   "updated": "2026-10-25",
+   "updated": "2026-10-27",
    "url": "https://github.com/kyverno/kyverno/issues/18272"
+  },
+  {
+   "found_in": null,
+   "posted": "2026-10-27",
+   "project": "kyverno/policies",
+   "role": "review suggestion",
+   "state": "on a pull request that is open",
+   "title": "fix: block /run socket paths and parent directories in disallow-cri-sock-mount",
+   "updated": "2026-10-27",
+   "url": "https://github.com/kyverno/policies/pull/1622#discussion_r4384374440"
   }
  ]
 }
