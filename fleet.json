@@ -1173,16 +1173,16 @@
    }
   }
  },
- "measured_at": "2026-10-27 03:11 UTC",
+ "measured_at": "2026-10-27 03:24 UTC",
  "operations": {
   "ci_runs_failed": 915,
-  "ci_runs_succeeded": 12638,
-  "commits": 2702,
-  "commits_by_owner": 2366,
+  "ci_runs_succeeded": 12645,
+  "commits": 2704,
+  "commits_by_owner": 2367,
   "dependency_updates": {
-   "measured": 339,
+   "measured": 340,
    "median_minutes": 4.3,
-   "merged": 339,
+   "merged": 340,
    "oldest_open_days": 1,
    "open": 2,
    "p90_minutes": 7.5,
@@ -1250,7 +1250,7 @@
    "Signed-Releases": 40,
    "Token-Permissions": 1
   },
-  "date": "2026-10-27T03:01:53Z",
+  "date": "2026-10-27T03:11:55Z",
   "lowest": 6.4,
   "lowest_repository": "terraria-server-docker-compose",
   "median": 7.3,
@@ -1523,6 +1523,16 @@
    "title": "fix(kf2): create the KFGame/Cache map-load directory on install",
    "updated": "2026-10-27",
    "url": "https://github.com/GameServerManagers/LinuxGSM/pull/5108"
+  },
+  {
+   "found_in": "kf2-server-docker-compose",
+   "posted": "2026-10-27",
+   "project": "GameServerManagers/docker-linuxgsm",
+   "role": "pull request",
+   "state": "open",
+   "title": "fix: start without waiting for npm's audit request",
+   "updated": "2026-10-27",
+   "url": "https://github.com/GameServerManagers/docker-linuxgsm/pull/113"
   }
  ]
 }
