@@ -818,7 +818,7 @@
     "runs_passed": 3,
     "streak_days": 3,
     "window_days": 30,
-    "written_at": "2026-10-28T11:07:45Z"
+    "written_at": "2026-10-28T14:07:52Z"
    },
    "kind": {
     "days_with_runs": 18,
@@ -836,7 +836,7 @@
     "runs_passed": 50,
     "streak_days": 16,
     "window_days": 30,
-    "written_at": "2026-10-28T11:07:38Z"
+    "written_at": "2026-10-28T14:07:46Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -1177,22 +1177,22 @@
    }
   }
  },
- "measured_at": "2026-10-28 13:11 UTC",
+ "measured_at": "2026-10-28 14:14 UTC",
  "operations": {
-  "ci_runs_failed": 1018,
-  "ci_runs_succeeded": 13332,
-  "commits": 2842,
-  "commits_by_owner": 2492,
+  "ci_runs_failed": 1024,
+  "ci_runs_succeeded": 13437,
+  "commits": 2881,
+  "commits_by_owner": 2532,
   "dependency_updates": {
-   "measured": 356,
+   "measured": 357,
    "median_minutes": 4.3,
-   "merged": 356,
+   "merged": 357,
    "oldest_open_days": 0,
    "open": 0,
    "p90_minutes": 7.5,
    "repositories": 105
   },
-  "releases": 759,
+  "releases": 767,
   "repositories": 109,
   "repositories_changed": 109,
   "repositories_released": 85,
@@ -1233,7 +1233,7 @@
   "static": 187,
   "unread": []
  },
- "release_tags": 1714,
+ "release_tags": 1721,
  "repositories": 100,
  "restore_repositories": 50,
  "restore_scripts": 76,
@@ -1251,16 +1251,16 @@
    "Maintained": 45,
    "Pinned-Dependencies": 109,
    "SAST": 31,
-   "Signed-Releases": 25,
+   "Signed-Releases": 14,
    "Token-Permissions": 1
   },
-  "date": "2026-10-27T23:16:39Z",
+  "date": "2026-10-28T14:05:52Z",
   "lowest": 6.5,
   "lowest_repository": "fleet-ops",
   "median": 7.3,
   "scored": 109,
   "scores": {
-   "affine-traefik-letsencrypt-docker-compose": 7.8,
+   "affine-traefik-letsencrypt-docker-compose": 7.9,
    "ama": 6.9,
    "amazon-ec2-gitlab-pipeline-terraform": 7.8,
    "amazon-ec2-instance-pipeline-terraform": 7.4,
@@ -1270,7 +1270,7 @@
    "amazon-lightsail-instance-pipeline-terraform": 7.4,
    "amazon-rds-pipeline-terraform": 7.4,
    "amazon-route53-pipeline-terraform": 7.4,
-   "anythingllm-traefik-letsencrypt-docker-compose": 7.2,
+   "anythingllm-traefik-letsencrypt-docker-compose": 7.1,
    "audiobookshelf-traefik-letsencrypt-docker-compose": 7.2,
    "authelia-traefik-letsencrypt-docker-compose": 7.9,
    "aws-eks-reference-platform": 7.2,
@@ -1289,7 +1289,7 @@
    "dify-traefik-letsencrypt-docker-compose": 7.1,
    "disable-inactive-users-active-directory": 7.4,
    "diun-docker-compose": 7.2,
-   "docmost-traefik-letsencrypt-docker-compose": 7.8,
+   "docmost-traefik-letsencrypt-docker-compose": 7.9,
    "dozzle-traefik-letsencrypt-docker-compose": 7.2,
    "external-disk-backup": 6.6,
    "fleet-ops": 6.5,
@@ -1297,10 +1297,10 @@
    "game-server-wireguard-relay-docker-compose": 7.2,
    "gaseous-server-using-docker-compose": 7.1,
    "ghost-traefik-letsencrypt-docker-compose": 7.9,
-   "gitea-traefik-letsencrypt-docker-compose": 7.8,
+   "gitea-traefik-letsencrypt-docker-compose": 7.9,
    "gitignore-template": 6.9,
-   "gitlab-traefik-letsencrypt-docker-compose": 7.8,
-   "glpi-traefik-letsencrypt-docker-compose": 7.8,
+   "gitlab-traefik-letsencrypt-docker-compose": 7.9,
+   "glpi-traefik-letsencrypt-docker-compose": 7.9,
    "grafana-traefik-letsencrypt-docker-compose": 7.9,
    "heyvaldemar": 6.6,
    "heyvaldemar-com-comments": 6.6,
@@ -1312,7 +1312,7 @@
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.2,
    "jira-traefik-letsencrypt-docker-compose": 7.9,
-   "joomla-traefik-letsencrypt-docker-compose": 7.8,
+   "joomla-traefik-letsencrypt-docker-compose": 7.9,
    "keycloak-traefik-letsencrypt-docker-compose": 7.9,
    "kf2-server-docker-compose": 7.1,
    "kubectl-docker": 7.3,
@@ -1322,9 +1322,9 @@
    "kubernetes-supply-chain-admission": 7.3,
    "l4d2-server-docker-compose": 7.2,
    "machine-learning-deep-learning-courses": 6.9,
-   "mailu-traefik-letsencrypt-docker-compose": 7.8,
+   "mailu-traefik-letsencrypt-docker-compose": 7.9,
    "mattermost-data-retention-docker-compose": 7.3,
-   "mattermost-traefik-letsencrypt-docker-compose": 7.8,
+   "mattermost-traefik-letsencrypt-docker-compose": 7.9,
    "minecraft-server-docker-compose": 7.8,
    "minecraft-server-proxy-docker-compose": 7.9,
    "modernuo-docker": 7,
@@ -1332,7 +1332,7 @@
    "navidrome-traefik-letsencrypt-docker-compose": 7.2,
    "nextcloud-onlyoffice-traefik-letsencrypt-docker-compose": 7.9,
    "nextcloud-traefik-letsencrypt-docker-compose": 7.9,
-   "nocodb-traefik-letsencrypt-docker-compose": 6.5,
+   "nocodb-traefik-letsencrypt-docker-compose": 6.6,
    "ollama-traefik-letsencrypt-docker-compose": 7.9,
    "operating-system-update-pipeline": 7.3,
    "otrs-traefik-letsencrypt-docker-compose": 7.8,
@@ -1342,9 +1342,9 @@
    "quake3-server-docker-compose": 8,
    "rathena-docker": 7,
    "restore-drill": 6.6,
-   "rocketchat-traefik-letsencrypt-docker-compose": 7.9,
+   "rocketchat-traefik-letsencrypt-docker-compose": 7.8,
    "romm-traefik-letsencrypt-docker-compose": 7.2,
-   "seafile-traefik-letsencrypt-docker-compose": 7.8,
+   "seafile-traefik-letsencrypt-docker-compose": 7.9,
    "self-host-repo-hardening-runbook": 7.1,
    "sftp-traefik-letsencrypt-docker-compose": 7.8,
    "siyuan-docker-compose": 7.9,
@@ -1363,11 +1363,11 @@
    "vein-server-docker-compose": 7.2,
    "webrcade-traefik-letsencrypt-docker-compose": 7.1,
    "wikijs-traefik-letsencrypt-docker-compose": 7.9,
-   "wordpress-traefik-letsencrypt-docker-compose": 7.8,
+   "wordpress-traefik-letsencrypt-docker-compose": 7.9,
    "xwiki-traefik-letsencrypt-docker-compose": 7.9,
    "zabbix-docker-compose": 7.9,
    "zabbix-traefik-letsencrypt-docker-compose": 7.9,
-   "zammad-traefik-letsencrypt-docker-compose": 7.8,
+   "zammad-traefik-letsencrypt-docker-compose": 7.9,
    "zomboid-server-docker-compose": 7.2
   },
   "unscored": []
@@ -1560,6 +1560,16 @@
    "title": "Say which webhook headers are signed, and ignore a delivery sent twice",
    "updated": "2026-10-27",
    "url": "https://github.com/cypress-io/cypress-documentation/pull/7035"
+  },
+  {
+   "found_in": null,
+   "posted": "2026-10-28",
+   "project": "kyverno/policies",
+   "role": "review suggestion",
+   "state": "on a pull request that is open",
+   "title": "feat(flux-ivpol): verify Flux controller image provenance",
+   "updated": "2026-10-28",
+   "url": "https://github.com/kyverno/policies/pull/1646#discussion_r4401465352"
   }
  ]
 }
