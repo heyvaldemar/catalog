@@ -56,6 +56,7 @@
    "kubectl-docker": 15978,
    "kubernetes-ai-agent-sandbox": 15463,
    "kubernetes-air-gapped-ai-agent": 15713,
+   "kubernetes-llm-inference-gateway": 16091,
    "kubernetes-postgres-recovery": 15496,
    "kubernetes-supply-chain-admission": 15464,
    "l4d2-server-docker-compose": 14891,
@@ -161,6 +162,7 @@
    "kubectl-docker": "passing",
    "kubernetes-ai-agent-sandbox": "passing",
    "kubernetes-air-gapped-ai-agent": "passing",
+   "kubernetes-llm-inference-gateway": "passing",
    "kubernetes-postgres-recovery": "passing",
    "kubernetes-supply-chain-admission": "passing",
    "l4d2-server-docker-compose": "passing",
@@ -211,8 +213,8 @@
    "zammad-traefik-letsencrypt-docker-compose": "passing",
    "zomboid-server-docker-compose": "passing"
   },
-  "passing": 103,
-  "registered": 103,
+  "passing": 104,
+  "registered": 104,
   "short": {},
   "unread": [],
   "unregistered": [
@@ -221,7 +223,6 @@
    "gitignore-template",
    "heyvaldemar",
    "heyvaldemar-com-comments",
-   "kubernetes-llm-inference-gateway",
    "machine-learning-deep-learning-courses",
    "snyk-to-gitlab-security-migration",
    "ukraine-support-social-networks-assets",
@@ -1207,12 +1208,12 @@
    }
   }
  },
- "measured_at": "2026-10-30 13:13 UTC",
+ "measured_at": "2026-10-30 13:26 UTC",
  "operations": {
-  "ci_runs_failed": 1073,
-  "ci_runs_succeeded": 13559,
-  "commits": 2943,
-  "commits_by_owner": 2599,
+  "ci_runs_failed": 1074,
+  "ci_runs_succeeded": 13568,
+  "commits": 2945,
+  "commits_by_owner": 2602,
   "dependency_updates": {
    "measured": 352,
    "median_minutes": 4.4,
@@ -1290,7 +1291,7 @@
    "Token-Permissions": 1,
    "Vulnerabilities": 1
   },
-  "date": "2026-10-30T06:29:17Z",
+  "date": "2026-10-30T13:19:44Z",
   "lowest": 6.1,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.3,
@@ -1355,7 +1356,7 @@
    "kubectl-docker": 7.3,
    "kubernetes-ai-agent-sandbox": 7.2,
    "kubernetes-air-gapped-ai-agent": 7.1,
-   "kubernetes-llm-inference-gateway": 6.4,
+   "kubernetes-llm-inference-gateway": 6.6,
    "kubernetes-postgres-recovery": 7.2,
    "kubernetes-supply-chain-admission": 7.3,
    "l4d2-server-docker-compose": 7.2,
@@ -1373,7 +1374,7 @@
    "nocodb-traefik-letsencrypt-docker-compose": 6.6,
    "ollama-traefik-letsencrypt-docker-compose": 7.9,
    "operating-system-update-pipeline": 7.3,
-   "os-shell-docker": 6.8,
+   "os-shell-docker": 7.1,
    "otrs-traefik-letsencrypt-docker-compose": 7.8,
    "outline-keycloak-traefik-letsencrypt-docker-compose": 7.8,
    "owncloud-traefik-letsencrypt-docker-compose": 7.8,
@@ -1631,6 +1632,17 @@
    "title": "[Bug] ImageValidatingPolicy: transient registry/TUF fetch errors are not retried and are reported as attestation not found",
    "updated": "2026-10-29",
    "url": "https://github.com/kyverno/kyverno/issues/18315#issuecomment-6498907076"
+  },
+  {
+   "found_in": "kubernetes-llm-inference-gateway",
+   "posted": "2026-10-30",
+   "project": "llm-d/llm-d-router",
+   "replies": 1,
+   "role": "independent measurement of a merged fix",
+   "state": "on an issue closed: completed",
+   "title": "Endpoint health: stop routing to endpoints whose metric polls or responses keep failing",
+   "updated": "2026-10-30",
+   "url": "https://github.com/llm-d/llm-d-router/issues/3326#issuecomment-6523685532"
   }
  ]
 }
