@@ -1208,12 +1208,12 @@
    }
   }
  },
- "measured_at": "2026-11-01 06:35 UTC",
+ "measured_at": "2026-11-01 06:49 UTC",
  "operations": {
   "ci_runs_failed": 1129,
-  "ci_runs_succeeded": 14241,
-  "commits": 3246,
-  "commits_by_owner": 2909,
+  "ci_runs_succeeded": 14248,
+  "commits": 3247,
+  "commits_by_owner": 2911,
   "dependency_updates": {
    "measured": 344,
    "median_minutes": 4.4,
@@ -2280,7 +2280,7 @@
     "Pinned-Dependencies": 8
    }
   },
-  "date": "2026-11-01T06:18:54Z",
+  "date": "2026-11-01T06:37:07Z",
   "lowest": 6.3,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.5,
