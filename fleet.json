@@ -1210,12 +1210,12 @@
    }
   }
  },
- "measured_at": "2026-11-02 15:40 UTC",
+ "measured_at": "2026-11-02 16:11 UTC",
  "operations": {
-  "ci_runs_failed": 1167,
-  "ci_runs_succeeded": 14801,
-  "commits": 3300,
-  "commits_by_owner": 2990,
+  "ci_runs_failed": 1169,
+  "ci_runs_succeeded": 14811,
+  "commits": 3302,
+  "commits_by_owner": 2992,
   "dependency_updates": {
    "measured": 321,
    "median_minutes": 4.4,
@@ -1293,7 +1293,7 @@
    "Maintained": 51,
    "Pinned-Dependencies": 115,
    "SAST": 26,
-   "Signed-Releases": 15,
+   "Signed-Releases": 14,
    "Vulnerabilities": 1
   },
   "below_ten_by_repository": {
@@ -1729,8 +1729,7 @@
     "Contributors": 6,
     "Fuzzing": 0,
     "Maintained": 0,
-    "Pinned-Dependencies": 8,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 8
    },
    "immich-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -2321,7 +2320,7 @@
     "Signed-Releases": 9
    }
   },
-  "date": "2026-11-02T15:27:01Z",
+  "date": "2026-11-02T15:58:10Z",
   "lowest": 6.3,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.5,
@@ -2375,7 +2374,7 @@
    "homeassistant-traefik-letsencrypt-docker-compose": 8,
    "homebox-traefik-letsencrypt-docker-compose": 8,
    "homepage-traefik-letsencrypt-docker-compose": 7.2,
-   "humanitz-server-docker-compose": 7.1,
+   "humanitz-server-docker-compose": 7.2,
    "immich-traefik-letsencrypt-docker-compose": 7.2,
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.2,
