@@ -226,6 +226,7 @@
    "jmx-exporter-docker",
    "kubernetes-oscal-evidence",
    "machine-learning-deep-learning-courses",
+   "minio-client-docker",
    "snyk-to-gitlab-security-migration",
    "ukraine-support-social-networks-assets",
    "ukraine-support-website-button-stripe"
@@ -802,7 +803,7 @@
   "Terraform pipelines on AWS": 8,
   "game servers": 17,
   "operations tools and scripts": 11,
-  "other stacks": 9,
+  "other stacks": 10,
   "self-hosted applications behind Traefik": 51
  },
  "live_status": {
@@ -826,7 +827,7 @@
     "runs_passed": 3,
     "streak_days": 3,
     "window_days": 30,
-    "written_at": "2026-11-02T13:05:32Z"
+    "written_at": "2026-11-02T17:14:52Z"
    },
    "kind": {
     "days_with_runs": 23,
@@ -844,7 +845,7 @@
     "runs_passed": 57,
     "streak_days": 21,
     "window_days": 30,
-    "written_at": "2026-11-02T13:05:26Z"
+    "written_at": "2026-11-02T17:14:47Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -866,7 +867,7 @@
     "runs_passed": 52,
     "streak_days": 21,
     "window_days": 30,
-    "written_at": "2026-11-02T12:37:26Z"
+    "written_at": "2026-11-02T17:18:22Z"
    }
   },
   "kubernetes-air-gapped-ai-agent": {
@@ -932,7 +933,7 @@
     "runs_passed": 8,
     "streak_days": 1,
     "window_days": 30,
-    "written_at": "2026-11-02T13:36:45Z"
+    "written_at": "2026-11-03T00:44:58Z"
    },
    "kind": {
     "days_with_runs": 16,
@@ -1161,7 +1162,7 @@
     "runs_passed": 82,
     "streak_days": 10,
     "window_days": 30,
-    "written_at": "2026-11-02T13:36:37Z"
+    "written_at": "2026-11-03T00:44:43Z"
    }
   },
   "kubernetes-postgres-recovery": {
@@ -1186,50 +1187,50 @@
     "runs_passed": 35,
     "streak_days": 20,
     "window_days": 30,
-    "written_at": "2026-11-02T12:36:01Z"
+    "written_at": "2026-11-02T17:26:55Z"
    }
   },
   "kubernetes-supply-chain-admission": {
    "kind": {
-    "days_with_runs": 21,
-    "green_days": 19,
+    "days_with_runs": 22,
+    "green_days": 20,
     "latest": {
-     "at": "2026-11-02T12:52:37Z",
+     "at": "2026-11-03T00:35:52Z",
      "checks_failed": 0,
      "checks_passed": 20,
-     "commit": "477f877",
+     "commit": "1165a8e",
      "conclusion": "success",
      "measured": [],
-     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/41448243669"
+     "url": "https://github.com/heyvaldemar/kubernetes-supply-chain-admission/actions/runs/41553992473"
     },
-    "runs": 64,
-    "runs_passed": 56,
-    "streak_days": 1,
+    "runs": 65,
+    "runs_passed": 57,
+    "streak_days": 2,
     "window_days": 30,
-    "written_at": "2026-11-02T12:55:28Z"
+    "written_at": "2026-11-03T00:38:38Z"
    }
   }
  },
- "measured_at": "2026-11-02 16:11 UTC",
+ "measured_at": "2026-11-03 01:08 UTC",
  "operations": {
-  "ci_runs_failed": 1169,
-  "ci_runs_succeeded": 14811,
-  "commits": 3302,
-  "commits_by_owner": 2992,
+  "ci_runs_failed": 1167,
+  "ci_runs_succeeded": 14689,
+  "commits": 3319,
+  "commits_by_owner": 3009,
   "dependency_updates": {
-   "measured": 321,
+   "measured": 312,
    "median_minutes": 4.4,
-   "merged": 321,
+   "merged": 312,
    "oldest_open_days": 0,
    "open": 0,
    "p90_minutes": 7.6,
    "repositories": 105
   },
-  "releases": 890,
-  "repositories": 115,
-  "repositories_changed": 115,
+  "releases": 891,
+  "repositories": 116,
+  "repositories_changed": 116,
   "repositories_released": 92,
-  "since": "2026-10-03",
+  "since": "2026-10-04",
   "unread": [],
   "window_days": 30
  },
@@ -1276,22 +1277,22 @@
   "static": 251,
   "unread": []
  },
- "release_tags": 1897,
- "repositories": 103,
+ "release_tags": 1902,
+ "repositories": 104,
  "restore_repositories": 50,
  "restore_scripts": 76,
  "restore_scripts_run": 76,
  "scorecard": {
   "below_ten": {
-   "Branch-Protection": 115,
+   "Branch-Protection": 116,
    "CI-Tests": 8,
-   "CII-Best-Practices": 115,
-   "Code-Review": 115,
-   "Contributors": 115,
-   "Fuzzing": 115,
+   "CII-Best-Practices": 116,
+   "Code-Review": 116,
+   "Contributors": 116,
+   "Fuzzing": 116,
    "License": 2,
-   "Maintained": 51,
-   "Pinned-Dependencies": 115,
+   "Maintained": 52,
+   "Pinned-Dependencies": 116,
    "SAST": 26,
    "Signed-Releases": 14,
    "Vulnerabilities": 1
@@ -1729,7 +1730,8 @@
     "Contributors": 6,
     "Fuzzing": 0,
     "Maintained": 0,
-    "Pinned-Dependencies": 8
+    "Pinned-Dependencies": 8,
+    "Signed-Releases": 9
    },
    "immich-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -1799,8 +1801,7 @@
     "Contributors": 6,
     "Fuzzing": 0,
     "Maintained": 0,
-    "Pinned-Dependencies": 8,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 8
    },
    "kubectl-docker": {
     "Branch-Protection": 3,
@@ -1925,6 +1926,15 @@
     "Fuzzing": 0,
     "Pinned-Dependencies": 8
    },
+   "minio-client-docker": {
+    "Branch-Protection": 3,
+    "CII-Best-Practices": 0,
+    "Code-Review": 0,
+    "Contributors": 0,
+    "Fuzzing": 0,
+    "Maintained": 0,
+    "Pinned-Dependencies": 9
+   },
    "modernuo-docker": {
     "Branch-Protection": 3,
     "CII-Best-Practices": 5,
@@ -2029,8 +2039,7 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 9
    },
    "portainer-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -2055,7 +2064,8 @@
     "Contributors": 6,
     "Fuzzing": 0,
     "Maintained": 0,
-    "Pinned-Dependencies": 5
+    "Pinned-Dependencies": 5,
+    "Signed-Releases": 9
    },
    "restore-drill": {
     "Branch-Protection": 3,
@@ -2320,11 +2330,11 @@
     "Signed-Releases": 9
    }
   },
-  "date": "2026-11-02T15:58:10Z",
+  "date": "2026-11-03T00:54:35Z",
   "lowest": 6.3,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.5,
-  "scored": 115,
+  "scored": 116,
   "scores": {
    "affine-traefik-letsencrypt-docker-compose": 7.9,
    "ama": 7.4,
@@ -2374,7 +2384,7 @@
    "homeassistant-traefik-letsencrypt-docker-compose": 8,
    "homebox-traefik-letsencrypt-docker-compose": 8,
    "homepage-traefik-letsencrypt-docker-compose": 7.2,
-   "humanitz-server-docker-compose": 7.2,
+   "humanitz-server-docker-compose": 7.1,
    "immich-traefik-letsencrypt-docker-compose": 7.2,
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.2,
@@ -2382,7 +2392,7 @@
    "jmx-exporter-docker": 7,
    "joomla-traefik-letsencrypt-docker-compose": 8,
    "keycloak-traefik-letsencrypt-docker-compose": 8,
-   "kf2-server-docker-compose": 7.1,
+   "kf2-server-docker-compose": 7.2,
    "kubectl-docker": 7.3,
    "kubernetes-ai-agent-sandbox": 7.2,
    "kubernetes-air-gapped-ai-agent": 7.2,
@@ -2397,6 +2407,7 @@
    "mattermost-traefik-letsencrypt-docker-compose": 8,
    "minecraft-server-docker-compose": 7.8,
    "minecraft-server-proxy-docker-compose": 7.9,
+   "minio-client-docker": 6.6,
    "modernuo-docker": 7,
    "mssql-server-traefik-letsencrypt-docker-compose": 8,
    "navidrome-traefik-letsencrypt-docker-compose": 7.2,
@@ -2408,10 +2419,10 @@
    "os-shell-docker": 7.3,
    "otrs-traefik-letsencrypt-docker-compose": 8,
    "outline-keycloak-traefik-letsencrypt-docker-compose": 7.8,
-   "owncloud-traefik-letsencrypt-docker-compose": 7.9,
+   "owncloud-traefik-letsencrypt-docker-compose": 8,
    "portainer-traefik-letsencrypt-docker-compose": 8,
    "quake3-server-docker-compose": 8,
-   "rathena-docker": 7,
+   "rathena-docker": 6.9,
    "restore-drill": 7,
    "rocketchat-traefik-letsencrypt-docker-compose": 8,
    "romm-traefik-letsencrypt-docker-compose": 7.2,
@@ -2647,7 +2658,7 @@
    "found_in": null,
    "posted": "2026-10-28",
    "project": "kyverno/policies",
-   "role": "review suggestion, applied as written",
+   "role": "review suggestion, applied, then widened by the author",
    "state": "on a pull request that is open",
    "title": "feat(flux-ivpol): verify Flux controller image provenance",
    "updated": "2026-11-02",
