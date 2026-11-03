@@ -1280,12 +1280,12 @@
    }
   }
  },
- "measured_at": "2026-11-03 14:39 UTC",
+ "measured_at": "2026-11-03 14:54 UTC",
  "operations": {
-  "ci_runs_failed": 1227,
-  "ci_runs_succeeded": 15068,
-  "commits": 3340,
-  "commits_by_owner": 3030,
+  "ci_runs_failed": 1228,
+  "ci_runs_succeeded": 15158,
+  "commits": 3375,
+  "commits_by_owner": 3065,
   "dependency_updates": {
    "measured": 312,
    "median_minutes": 4.4,
@@ -1295,7 +1295,7 @@
    "p90_minutes": 7.6,
    "repositories": 105
   },
-  "releases": 897,
+  "releases": 898,
   "repositories": 116,
   "repositories_changed": 116,
   "repositories_released": 92,
@@ -1346,7 +1346,7 @@
   "static": 266,
   "unread": []
  },
- "release_tags": 1908,
+ "release_tags": 1909,
  "repositories": 105,
  "restore_repositories": 50,
  "restore_scripts": 76,
@@ -1363,6 +1363,7 @@
    "Maintained": 52,
    "Pinned-Dependencies": 116,
    "SAST": 26,
+   "Signed-Releases": 1,
    "Vulnerabilities": 1
   },
   "below_ten_by_repository": {
@@ -2095,7 +2096,8 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9
+    "Pinned-Dependencies": 9,
+    "Signed-Releases": 9
    },
    "portainer-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -2379,7 +2381,7 @@
     "Pinned-Dependencies": 8
    }
   },
-  "date": "2026-11-03T14:30:53Z",
+  "date": "2026-11-03T14:46:33Z",
   "lowest": 6.3,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.5,
@@ -2468,7 +2470,7 @@
    "os-shell-docker": 7.3,
    "otrs-traefik-letsencrypt-docker-compose": 8,
    "outline-keycloak-traefik-letsencrypt-docker-compose": 7.9,
-   "owncloud-traefik-letsencrypt-docker-compose": 8,
+   "owncloud-traefik-letsencrypt-docker-compose": 7.9,
    "portainer-traefik-letsencrypt-docker-compose": 8,
    "quake3-server-docker-compose": 8,
    "rathena-docker": 7,
