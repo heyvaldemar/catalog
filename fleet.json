@@ -827,7 +827,7 @@
     "runs_passed": 4,
     "streak_days": 4,
     "window_days": 30,
-    "written_at": "2026-11-07T11:33:13Z"
+    "written_at": "2026-11-07T14:10:25Z"
    },
    "kind": {
     "days_with_runs": 28,
@@ -845,7 +845,7 @@
     "runs_passed": 62,
     "streak_days": 26,
     "window_days": 30,
-    "written_at": "2026-11-07T11:33:09Z"
+    "written_at": "2026-11-07T14:10:20Z"
    }
   },
   "cypress-cloud-triage-agent": {
@@ -867,7 +867,7 @@
     "runs_passed": 18,
     "streak_days": 5,
     "window_days": 30,
-    "written_at": "2026-11-07T11:24:38Z"
+    "written_at": "2026-11-07T14:15:34Z"
    }
   },
   "kubernetes-ai-agent-sandbox": {
@@ -889,7 +889,7 @@
     "runs_passed": 59,
     "streak_days": 26,
     "window_days": 30,
-    "written_at": "2026-11-07T11:12:00Z"
+    "written_at": "2026-11-07T14:15:30Z"
    }
   },
   "kubernetes-air-gapped-ai-agent": {
@@ -926,7 +926,7 @@
     "runs_passed": 8,
     "streak_days": 0,
     "window_days": 30,
-    "written_at": "2026-11-07T11:57:06Z"
+    "written_at": "2026-11-07T14:17:06Z"
    },
    "kind": {
     "days_with_runs": 21,
@@ -1155,7 +1155,7 @@
     "runs_passed": 92,
     "streak_days": 15,
     "window_days": 30,
-    "written_at": "2026-11-07T11:56:56Z"
+    "written_at": "2026-11-07T14:16:53Z"
    }
   },
   "kubernetes-llm-inference-gateway": {
@@ -1178,7 +1178,7 @@
     "runs_passed": 33,
     "streak_days": 9,
     "window_days": 30,
-    "written_at": "2026-11-07T11:34:05Z"
+    "written_at": "2026-11-07T13:56:30Z"
    }
   },
   "kubernetes-oscal-evidence": {
@@ -1202,7 +1202,7 @@
     "runs_passed": 10,
     "streak_days": 4,
     "window_days": 30,
-    "written_at": "2026-11-06T16:14:43Z"
+    "written_at": "2026-11-07T15:06:14Z"
    }
   },
   "kubernetes-postgres-recovery": {
@@ -1227,7 +1227,7 @@
     "runs_passed": 40,
     "streak_days": 25,
     "window_days": 30,
-    "written_at": "2026-11-07T11:12:54Z"
+    "written_at": "2026-11-07T14:21:16Z"
    }
   },
   "kubernetes-supply-chain-admission": {
@@ -1247,30 +1247,30 @@
     "runs_passed": 63,
     "streak_days": 6,
     "window_days": 30,
-    "written_at": "2026-11-07T11:24:52Z"
+    "written_at": "2026-11-07T14:19:36Z"
    }
   }
  },
- "measured_at": "2026-11-07 13:19 UTC",
+ "measured_at": "2026-11-08 04:48 UTC",
  "operations": {
-  "ci_runs_failed": 1345,
-  "ci_runs_succeeded": 15766,
-  "commits": 3396,
-  "commits_by_owner": 3052,
+  "ci_runs_failed": 1314,
+  "ci_runs_succeeded": 15702,
+  "commits": 3386,
+  "commits_by_owner": 3039,
   "dependency_updates": {
-   "measured": 346,
+   "measured": 349,
    "median_minutes": 4.4,
-   "merged": 346,
+   "merged": 349,
    "oldest_open_days": 0,
    "open": 0,
-   "p90_minutes": 7.5,
+   "p90_minutes": 7.6,
    "repositories": 106
   },
-  "releases": 977,
+  "releases": 980,
   "repositories": 116,
   "repositories_changed": 116,
   "repositories_released": 92,
-  "since": "2026-10-08",
+  "since": "2026-10-09",
   "unread": [],
   "window_days": 30
  },
@@ -1317,7 +1317,7 @@
   "static": 271,
   "unread": []
  },
- "release_tags": 2088,
+ "release_tags": 2114,
  "repositories": 105,
  "restore_repositories": 50,
  "restore_scripts": 76,
@@ -1334,7 +1334,7 @@
    "Maintained": 51,
    "Pinned-Dependencies": 116,
    "SAST": 26,
-   "Signed-Releases": 33,
+   "Signed-Releases": 35,
    "Vulnerabilities": 1
   },
   "below_ten_by_repository": {
@@ -1419,7 +1419,8 @@
     "Contributors": 6,
     "Fuzzing": 0,
     "Pinned-Dependencies": 8,
-    "SAST": 7
+    "SAST": 7,
+    "Signed-Releases": 9
    },
    "amazon-route53-pipeline-terraform": {
     "Branch-Protection": 3,
@@ -1616,7 +1617,8 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9
+    "Pinned-Dependencies": 9,
+    "Signed-Releases": 9
    },
    "dozzle-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -1708,7 +1710,8 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 8
+    "Pinned-Dependencies": 8,
+    "Signed-Releases": 9
    },
    "glpi-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -1770,8 +1773,7 @@
     "Contributors": 6,
     "Fuzzing": 0,
     "Maintained": 0,
-    "Pinned-Dependencies": 9,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 9
    },
    "humanitz-server-docker-compose": {
     "Branch-Protection": 3,
@@ -1834,8 +1836,7 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 9
    },
    "keycloak-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -1843,8 +1844,7 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 9
    },
    "kf2-server-docker-compose": {
     "Branch-Protection": 3,
@@ -1962,7 +1962,8 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9
+    "Pinned-Dependencies": 9,
+    "Signed-Releases": 9
    },
    "minecraft-server-docker-compose": {
     "Branch-Protection": 3,
@@ -2031,8 +2032,7 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9,
-    "Signed-Releases": 9
+    "Pinned-Dependencies": 9
    },
    "nocodb-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -2103,7 +2103,8 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9
+    "Pinned-Dependencies": 9,
+    "Signed-Releases": 9
    },
    "quake3-server-docker-compose": {
     "Branch-Protection": 3,
@@ -2332,7 +2333,8 @@
     "Code-Review": 0,
     "Contributors": 6,
     "Fuzzing": 0,
-    "Pinned-Dependencies": 9
+    "Pinned-Dependencies": 9,
+    "Signed-Releases": 9
    },
    "wordpress-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -2386,7 +2388,7 @@
     "Pinned-Dependencies": 8
    }
   },
-  "date": "2026-11-07T00:00:45Z",
+  "date": "2026-11-08T04:41:56Z",
   "lowest": 6.3,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.5,
@@ -2400,7 +2402,7 @@
    "amazon-ec2-nextcloud-docker-swarm-pipeline-terraform": 7.7,
    "amazon-eks-cluster-pipeline-terraform": 7.7,
    "amazon-lightsail-instance-pipeline-terraform": 7.7,
-   "amazon-rds-pipeline-terraform": 7.8,
+   "amazon-rds-pipeline-terraform": 7.7,
    "amazon-route53-pipeline-terraform": 7.8,
    "anythingllm-traefik-letsencrypt-docker-compose": 7.1,
    "audiobookshelf-traefik-letsencrypt-docker-compose": 7.1,
@@ -2422,32 +2424,32 @@
    "disable-inactive-users-active-directory": 7.8,
    "diun-docker-compose": 7.2,
    "docker-hardened-images-migration": 6.9,
-   "docmost-traefik-letsencrypt-docker-compose": 8,
+   "docmost-traefik-letsencrypt-docker-compose": 7.9,
    "dozzle-traefik-letsencrypt-docker-compose": 7.1,
    "external-disk-backup": 7,
-   "fleet-ops": 6.9,
+   "fleet-ops": 7,
    "forgejo-traefik-letsencrypt-docker-compose": 7.2,
    "game-server-wireguard-relay-docker-compose": 7.2,
    "gaseous-server-using-docker-compose": 7.1,
    "ghost-traefik-letsencrypt-docker-compose": 8,
    "gitea-traefik-letsencrypt-docker-compose": 7.9,
    "gitignore-template": 7.4,
-   "gitlab-traefik-letsencrypt-docker-compose": 7.9,
+   "gitlab-traefik-letsencrypt-docker-compose": 7.8,
    "glpi-traefik-letsencrypt-docker-compose": 7.9,
    "grafana-traefik-letsencrypt-docker-compose": 7.9,
    "heyvaldemar": 7.2,
    "heyvaldemar-com-comments": 7.2,
    "homeassistant-traefik-letsencrypt-docker-compose": 8,
    "homebox-traefik-letsencrypt-docker-compose": 7.9,
-   "homepage-traefik-letsencrypt-docker-compose": 7.1,
+   "homepage-traefik-letsencrypt-docker-compose": 7.2,
    "humanitz-server-docker-compose": 7.1,
    "immich-traefik-letsencrypt-docker-compose": 7.2,
    "jediacademy-server-docker-compose": 7.2,
    "jellyfin-traefik-letsencrypt-docker-compose": 7.1,
    "jira-traefik-letsencrypt-docker-compose": 8,
    "jmx-exporter-docker": 7,
-   "joomla-traefik-letsencrypt-docker-compose": 7.9,
-   "keycloak-traefik-letsencrypt-docker-compose": 7.9,
+   "joomla-traefik-letsencrypt-docker-compose": 8,
+   "keycloak-traefik-letsencrypt-docker-compose": 8,
    "kf2-server-docker-compose": 7.1,
    "kubectl-docker": 7.3,
    "kubernetes-ai-agent-sandbox": 7.2,
@@ -2460,7 +2462,7 @@
    "machine-learning-deep-learning-courses": 7.4,
    "mailu-traefik-letsencrypt-docker-compose": 7.9,
    "mattermost-data-retention-docker-compose": 7.8,
-   "mattermost-traefik-letsencrypt-docker-compose": 8,
+   "mattermost-traefik-letsencrypt-docker-compose": 7.9,
    "minecraft-server-docker-compose": 7.8,
    "minecraft-server-proxy-docker-compose": 7.9,
    "minio-client-docker": 6.9,
@@ -2468,7 +2470,7 @@
    "mssql-server-traefik-letsencrypt-docker-compose": 7.9,
    "navidrome-traefik-letsencrypt-docker-compose": 7.2,
    "nextcloud-onlyoffice-traefik-letsencrypt-docker-compose": 7.9,
-   "nextcloud-traefik-letsencrypt-docker-compose": 7.9,
+   "nextcloud-traefik-letsencrypt-docker-compose": 8,
    "nocodb-traefik-letsencrypt-docker-compose": 7.1,
    "ollama-traefik-letsencrypt-docker-compose": 7.9,
    "operating-system-update-pipeline": 7.7,
@@ -2476,7 +2478,7 @@
    "otrs-traefik-letsencrypt-docker-compose": 8,
    "outline-keycloak-traefik-letsencrypt-docker-compose": 7.8,
    "owncloud-traefik-letsencrypt-docker-compose": 7.9,
-   "portainer-traefik-letsencrypt-docker-compose": 8,
+   "portainer-traefik-letsencrypt-docker-compose": 7.9,
    "quake3-server-docker-compose": 8,
    "rathena-docker": 7,
    "restore-drill": 7,
@@ -2501,7 +2503,7 @@
    "vaultwarden-traefik-letsencrypt-docker-compose": 8,
    "vein-server-docker-compose": 7.2,
    "webrcade-traefik-letsencrypt-docker-compose": 7.2,
-   "wikijs-traefik-letsencrypt-docker-compose": 8,
+   "wikijs-traefik-letsencrypt-docker-compose": 7.9,
    "wordpress-traefik-letsencrypt-docker-compose": 8,
    "xwiki-traefik-letsencrypt-docker-compose": 7.9,
    "zabbix-docker-compose": 8,
@@ -2662,7 +2664,7 @@
    "role": "pull request",
    "state": "open",
    "title": "feat: extract image volumes in the built-in image extractors",
-   "updated": "2026-11-05",
+   "updated": "2026-11-08",
    "url": "https://github.com/kyverno/kyverno/pull/18458"
   },
   {
@@ -2814,6 +2816,72 @@
    "title": "kiro kit: Builder ID device-flow sign-in fails without a global allow rule; kit allowlist lacks oidc.us-east-1.amazonaws.com",
    "updated": "2026-11-05",
    "url": "https://github.com/docker/sbx-releases/issues/818"
+  },
+  {
+   "found_in": "kubernetes-oscal-evidence",
+   "posted": "2026-11-03",
+   "project": "oscal-compass/compliance-to-policy-go",
+   "replies": 0,
+   "role": "issue with a reproduction",
+   "state": "open",
+   "title": "kyverno-plugin result2oscal: with Kyverno's per-resource PolicyReports every observation has no subjects, so every control is not-satisfied",
+   "updated": "2026-11-03",
+   "url": "https://github.com/oscal-compass/compliance-to-policy-go/issues/323"
+  },
+  {
+   "found_in": "kubernetes-oscal-evidence",
+   "posted": "2026-11-04",
+   "project": "oscal-compass/compliance-to-policy-go",
+   "replies": 0,
+   "role": "issue with a reproduction",
+   "state": "open",
+   "title": "kyverno-plugin result2oscal: a result with no message gives an empty \"reason\" prop, and c2pcli's own schema validation refuses the output",
+   "updated": "2026-11-04",
+   "url": "https://github.com/oscal-compass/compliance-to-policy-go/issues/324"
+  },
+  {
+   "found_in": "kubernetes-oscal-evidence",
+   "posted": "2026-11-05",
+   "project": "oscal-compass/compliance-to-policy-go",
+   "replies": 0,
+   "role": "issue with a reproduction",
+   "state": "open",
+   "title": "report: finding targets are always \"<control-id>_smt\", which is not the statement id in NIST's SSDF and AI RMF catalogs",
+   "updated": "2026-11-05",
+   "url": "https://github.com/oscal-compass/compliance-to-policy-go/issues/325"
+  },
+  {
+   "found_in": "kubernetes-oscal-evidence",
+   "posted": "2026-11-08",
+   "project": "oscal-compass/compliance-to-policy-go",
+   "replies": 0,
+   "role": "issue with a reproduction",
+   "state": "open",
+   "title": "kyverno-plugin result2oscal: ClusterPolicyReports are loaded and never read, and EvaluatedOn is the conversion time",
+   "updated": "2026-11-08",
+   "url": "https://github.com/oscal-compass/compliance-to-policy-go/issues/326"
+  },
+  {
+   "found_in": "kubernetes-oscal-evidence",
+   "posted": "2026-11-03",
+   "project": "kyverno/kyverno",
+   "replies": 1,
+   "role": "issue with a reproduction",
+   "state": "open",
+   "title": "[Bug] ValidatingAdmissionPolicy background scan evaluates every stored object as a CREATE",
+   "updated": "2026-11-03",
+   "url": "https://github.com/kyverno/kyverno/issues/18436"
+  },
+  {
+   "found_in": "kubernetes-oscal-evidence",
+   "posted": "2026-11-04",
+   "project": "kyverno/website",
+   "replies": 0,
+   "role": "issue",
+   "state": "open",
+   "title": "[Bug] Reports guide: ValidatingAdmissionPolicy reports also need the reports.kyverno.io/enabled label, and RBAC for a paramKind",
+   "updated": "2026-11-04",
+   "url": "https://github.com/kyverno/website/issues/2246"
   }
  ]
 }
