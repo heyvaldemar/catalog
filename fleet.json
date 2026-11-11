@@ -2851,9 +2851,9 @@
    "posted": "2026-10-27",
    "project": "cypress-io/cypress-documentation",
    "role": "pull request",
-   "state": "open",
+   "state": "merged",
    "title": "Say which webhook headers are signed, and ignore a delivery sent twice",
-   "updated": "2026-11-08",
+   "updated": "2026-11-10",
    "url": "https://github.com/cypress-io/cypress-documentation/pull/7035"
   },
   {
@@ -2934,11 +2934,11 @@
    "found_in": "kubernetes-ai-agent-sandbox",
    "posted": "2026-11-05",
    "project": "docker/sbx-releases",
-   "replies": 1,
+   "replies": 2,
    "role": "issue with a reproduction",
-   "state": "open",
+   "state": "closed: completed",
    "title": "kiro kit: Builder ID device-flow sign-in fails without a global allow rule; kit allowlist lacks oidc.us-east-1.amazonaws.com",
-   "updated": "2026-11-05",
+   "updated": "2026-11-10",
    "url": "https://github.com/docker/sbx-releases/issues/818"
   },
   {
