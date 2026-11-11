@@ -2837,7 +2837,7 @@
    "role": "pull request",
    "state": "open",
    "title": "feat(cel): extract image volumes in the built-in image extractors",
-   "updated": "2026-11-08",
+   "updated": "2026-11-11",
    "url": "https://github.com/kyverno/kyverno/pull/18458"
   },
   {
@@ -2912,7 +2912,7 @@
    "role": "review suggestion, applied, then widened by the author",
    "state": "on a pull request that is open",
    "title": "feat(flux-ivpol): verify Flux controller image provenance",
-   "updated": "2026-11-10",
+   "updated": "2026-11-11",
    "url": "https://github.com/kyverno/policies/pull/1646#discussion_r4401465352"
   },
   {
@@ -2983,11 +2983,11 @@
    "found_in": "kubernetes-ai-agent-sandbox",
    "posted": "2026-11-05",
    "project": "docker/sbx-releases",
-   "replies": 2,
+   "replies": 3,
    "role": "issue with a reproduction",
    "state": "closed: completed",
    "title": "kiro kit: Builder ID device-flow sign-in fails without a global allow rule; kit allowlist lacks oidc.us-east-1.amazonaws.com",
-   "updated": "2026-11-10",
+   "updated": "2026-11-11",
    "url": "https://github.com/docker/sbx-releases/issues/818"
   },
   {
