@@ -2906,9 +2906,9 @@
    "posted": "2026-10-27",
    "project": "kyverno/policies",
    "role": "review suggestion, taken up by the author with its four test cases",
-   "state": "on a pull request that is open",
+   "state": "on a pull request that is closed",
    "title": "fix: block /run socket paths and parent directories in disallow-cri-sock-mount",
-   "updated": "2026-11-04",
+   "updated": "2026-11-12",
    "url": "https://github.com/kyverno/policies/pull/1622#discussion_r4384374440"
   },
   {
@@ -2963,7 +2963,7 @@
    "role": "review suggestion, applied, then widened by the author",
    "state": "on a pull request that is open",
    "title": "feat(flux-ivpol): verify Flux controller image provenance",
-   "updated": "2026-11-11",
+   "updated": "2026-11-12",
    "url": "https://github.com/kyverno/policies/pull/1646#discussion_r4401465352"
   },
   {
@@ -3027,7 +3027,7 @@
    "role": "test of the fix on the reproducer",
    "state": "open",
    "title": "runsc: apply pod containers' swap limits to the sandbox cgroup",
-   "updated": "2026-11-11",
+   "updated": "2026-11-12",
    "url": "https://github.com/google/gvisor/pull/16798#issuecomment-6580957555"
   },
   {
@@ -3037,7 +3037,7 @@
    "role": "re-test of the revised fix on the reproducer",
    "state": "open",
    "title": "runsc: apply pod containers' swap limits to the sandbox cgroup",
-   "updated": "2026-11-11",
+   "updated": "2026-11-12",
    "url": "https://github.com/google/gvisor/pull/16798#issuecomment-6801968334"
   },
   {
