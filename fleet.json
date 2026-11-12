@@ -3101,30 +3101,46 @@
   },
   {
    "found_in": "kubernetes-supply-chain-admission",
+   "posted": "2026-11-04",
    "project": "kyverno/website",
    "role": "pull request",
-   "state": "unreadable",
+   "state": "open",
+   "title": "docs: list the built-in image extractors, including image volumes",
+   "updated": "2026-11-04",
    "url": "https://github.com/kyverno/website/pull/2247"
   },
   {
    "found_in": null,
+   "posted": "2026-10-27",
    "project": "kyverno/policies",
    "role": "review suggestion, taken up by the author with its four test cases",
-   "state": "unreadable",
+   "state": "on a pull request that is closed",
+   "title": "fix: block /run socket paths and parent directories in disallow-cri-sock-mount",
+   "updated": "2026-11-12",
    "url": "https://github.com/kyverno/policies/pull/1622#discussion_r4384374440"
   },
   {
    "found_in": "kf2-server-docker-compose",
+   "posted": "2026-10-27",
    "project": "GameServerManagers/LinuxGSM",
+   "reverted": {
+    "date": "2026-10-31",
+    "url": "https://github.com/GameServerManagers/LinuxGSM/commit/c763125cd5a2935bda7f597958b83cbdd2ea0809"
+   },
    "role": "pull request",
-   "state": "unreadable",
+   "state": "merged, then reverted",
+   "title": "fix(kf2): create the KFGame/Cache map-load directory on install",
+   "updated": "2026-11-05",
    "url": "https://github.com/GameServerManagers/LinuxGSM/pull/5108"
   },
   {
    "found_in": "kf2-server-docker-compose",
+   "posted": "2026-10-27",
    "project": "GameServerManagers/docker-linuxgsm",
    "role": "pull request",
-   "state": "unreadable",
+   "state": "merged",
+   "title": "fix: start without waiting for npm's audit request",
+   "updated": "2026-11-01",
    "url": "https://github.com/GameServerManagers/docker-linuxgsm/pull/113"
   },
   {
@@ -3140,23 +3156,32 @@
   },
   {
    "found_in": "cypress-cloud-triage-agent",
+   "posted": "2026-10-27",
    "project": "cypress-io/cypress-documentation",
    "role": "pull request",
-   "state": "unreadable",
+   "state": "merged",
+   "title": "Say which webhook headers are signed, and ignore a delivery sent twice",
+   "updated": "2026-11-10",
    "url": "https://github.com/cypress-io/cypress-documentation/pull/7035"
   },
   {
    "found_in": null,
+   "posted": "2026-10-28",
    "project": "kyverno/policies",
    "role": "review suggestion, applied, then widened by the author",
-   "state": "unreadable",
+   "state": "on a pull request that is open",
+   "title": "feat(flux-ivpol): verify Flux controller image provenance",
+   "updated": "2026-11-12",
    "url": "https://github.com/kyverno/policies/pull/1646#discussion_r4401465352"
   },
   {
    "found_in": "docker-hardened-images-migration",
+   "posted": "2026-10-28",
    "project": "docker-hardened-images/catalog",
    "role": "pull request",
-   "state": "unreadable",
+   "state": "open",
+   "title": "postgres: make the guide's direct data copy create the directory and hand the files to UID 70",
+   "updated": "2026-10-28",
    "url": "https://github.com/docker-hardened-images/catalog/pull/685"
   },
   {
