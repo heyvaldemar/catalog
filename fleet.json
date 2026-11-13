@@ -220,6 +220,7 @@
   "unregistered": [
    "agent-security-benchmark",
    "ama",
+   "cloud-evidence-pack",
    "docker-hardened-images-migration",
    "gitignore-template",
    "heyvaldemar",
@@ -797,7 +798,7 @@
   }
  ],
  "groups": {
-  "Kubernetes platforms": 10,
+  "Kubernetes platforms": 11,
   "Terraform pipelines on AWS": 8,
   "game servers": 17,
   "operations tools and scripts": 11,
@@ -1665,25 +1666,25 @@
    }
   }
  },
- "measured_at": "2026-11-13 03:15 UTC",
+ "measured_at": "2026-11-13 03:27 UTC",
  "operations": {
-  "ci_runs_failed": 1486,
-  "ci_runs_succeeded": 17780,
-  "commits": 3709,
-  "commits_by_owner": 3308,
+  "ci_runs_failed": 1488,
+  "ci_runs_succeeded": 17790,
+  "commits": 3725,
+  "commits_by_owner": 3324,
   "dependency_updates": {
-   "measured": 403,
+   "measured": 404,
    "median_minutes": 4.6,
-   "merged": 403,
+   "merged": 404,
    "oldest_open_days": 1,
    "open": 3,
    "p90_minutes": 8.3,
    "repositories": 115
   },
-  "releases": 1034,
-  "repositories": 118,
-  "repositories_changed": 118,
-  "repositories_released": 101,
+  "releases": 1035,
+  "repositories": 119,
+  "repositories_changed": 119,
+  "repositories_released": 102,
   "since": "2026-10-14",
   "unread": [],
   "window_days": 30
@@ -1736,22 +1737,22 @@
   "static": 395,
   "unread": []
  },
- "release_tags": 2271,
- "repositories": 107,
+ "release_tags": 2272,
+ "repositories": 108,
  "restore_repositories": 50,
  "restore_scripts": 76,
  "restore_scripts_run": 76,
  "scorecard": {
   "below_ten": {
-   "Branch-Protection": 118,
+   "Branch-Protection": 119,
    "CI-Tests": 8,
-   "CII-Best-Practices": 118,
-   "Code-Review": 118,
-   "Contributors": 118,
-   "Fuzzing": 118,
+   "CII-Best-Practices": 119,
+   "Code-Review": 119,
+   "Contributors": 119,
+   "Fuzzing": 119,
    "License": 2,
-   "Maintained": 52,
-   "Pinned-Dependencies": 118,
+   "Maintained": 53,
+   "Pinned-Dependencies": 119,
    "SAST": 25,
    "Signed-Releases": 28,
    "Vulnerabilities": 1
@@ -1945,6 +1946,15 @@
     "Fuzzing": 0,
     "Pinned-Dependencies": 8,
     "SAST": 7
+   },
+   "cloud-evidence-pack": {
+    "Branch-Protection": 0,
+    "CII-Best-Practices": 0,
+    "Code-Review": 0,
+    "Contributors": 6,
+    "Fuzzing": 0,
+    "Maintained": 0,
+    "Pinned-Dependencies": 8
    },
    "confluence-traefik-letsencrypt-docker-compose": {
     "Branch-Protection": 3,
@@ -2818,11 +2828,11 @@
     "Pinned-Dependencies": 8
    }
   },
-  "date": "2026-11-13T03:02:37Z",
+  "date": "2026-11-13T03:13:34Z",
   "lowest": 6.4,
   "lowest_repository": "snyk-to-gitlab-security-migration",
   "median": 7.5,
-  "scored": 118,
+  "scored": 119,
   "scores": {
    "affine-traefik-letsencrypt-docker-compose": 8,
    "agent-security-benchmark": 6.5,
@@ -2845,6 +2855,7 @@
    "blackmesa-server-docker-compose": 7.2,
    "chatops-privilege-wall": 7.2,
    "clean-server-logs-iis-exchange": 7.8,
+   "cloud-evidence-pack": 6.7,
    "confluence-traefik-letsencrypt-docker-compose": 8,
    "cs2-classic-server-docker-compose": 7.2,
    "cs2-server-docker-compose": 7.2,

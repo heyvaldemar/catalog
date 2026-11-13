@@ -8,7 +8,7 @@ This file is generated. Nothing in it is a claim of its own: the badge is each w
 
 <!-- fleet-catalog:start -->
 
-*107 repositories. The badge says whether each one boots in its own CI; whether its pins are current is a separate daily check that the fleet acts on, so a pin one version behind does not turn a working template red. The release is the tag GitHub has. Rebuilt by [fleet-ops](https://github.com/heyvaldemar/fleet-ops) once a day and rewritten when a row changes; this table last changed 2026-11-12 15:33 UTC.*
+*108 repositories. The badge says whether each one boots in its own CI; whether its pins are current is a separate daily check that the fleet acts on, so a pin one version behind does not turn a working template red. The release is the tag GitHub has. Rebuilt by [fleet-ops](https://github.com/heyvaldemar/fleet-ops) once a day and rewritten when a row changes; this table last changed 2026-11-13 03:27 UTC.*
 
 ## Self-hosted applications behind Traefik with Let's Encrypt (51)
 
@@ -116,12 +116,13 @@ This file is generated. Nothing in it is a claim of its own: the badge is each w
 | [Amazon RDS](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform) | [v1.2.6](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/releases/tag/v1.2.6) · 2026-11-07 | [![CI](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/actions/workflows/terraform-verification.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/actions/workflows/terraform-verification.yml) |
 | [Amazon Route53](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform) | [v1.2.6](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform/releases/tag/v1.2.6) · 2026-11-06 | [![CI](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform/actions/workflows/terraform-verification.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/amazon-route53-pipeline-terraform/actions/workflows/terraform-verification.yml) |
 
-## Kubernetes platforms (10)
+## Kubernetes platforms (11)
 
 | Repository | Latest release | CI |
 | :--- | :--- | :--- |
 | [Agent Security Benchmark](https://github.com/heyvaldemar/agent-security-benchmark) | — | [![CI](https://github.com/heyvaldemar/agent-security-benchmark/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/agent-security-benchmark/actions/workflows/e2e.yml) |
 | [AWS EKS Reference Platform](https://github.com/heyvaldemar/aws-eks-reference-platform) | [v1.3.4](https://github.com/heyvaldemar/aws-eks-reference-platform/releases/tag/v1.3.4) · 2026-11-12 | [![CI](https://github.com/heyvaldemar/aws-eks-reference-platform/actions/workflows/kind-e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/aws-eks-reference-platform/actions/workflows/kind-e2e.yml) |
+| [Cloud Evidence Pack](https://github.com/heyvaldemar/cloud-evidence-pack) | [v1.0.0](https://github.com/heyvaldemar/cloud-evidence-pack/releases/tag/v1.0.0) · 2026-11-12 | [![CI](https://github.com/heyvaldemar/cloud-evidence-pack/actions/workflows/pack.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/cloud-evidence-pack/actions/workflows/pack.yml) |
 | [Cypress Cloud Triage Agent](https://github.com/heyvaldemar/cypress-cloud-triage-agent) | [v1.1.3](https://github.com/heyvaldemar/cypress-cloud-triage-agent/releases/tag/v1.1.3) · 2026-11-12 | [![CI](https://github.com/heyvaldemar/cypress-cloud-triage-agent/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/cypress-cloud-triage-agent/actions/workflows/e2e.yml) |
 | [Kubernetes AI Agent Sandbox](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox) | [v1.4.0](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/releases/tag/v1.4.0) · 2026-11-08 | [![CI](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/kubernetes-ai-agent-sandbox/actions/workflows/e2e.yml) |
 | [Kubernetes Air Gapped AI Agent](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent) | [v1.9.0](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent/releases/tag/v1.9.0) · 2026-11-09 | [![CI](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/kubernetes-air-gapped-ai-agent/actions/workflows/e2e.yml) |
