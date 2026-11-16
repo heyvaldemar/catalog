@@ -8,7 +8,7 @@ This file is generated. Nothing in it is a claim of its own: the badge is each w
 
 <!-- fleet-catalog:start -->
 
-*109 repositories. The badge says whether each one boots in its own CI; whether its pins are current is a separate daily check that the fleet acts on, so a pin one version behind does not turn a working template red. The release is the tag GitHub has. Rebuilt by [fleet-ops](https://github.com/heyvaldemar/fleet-ops) once a day and rewritten when a row changes; this table last changed 2026-11-16 03:18 UTC.*
+*109 repositories. The badge says whether each one boots in its own CI; whether its pins are current is a separate daily check that the fleet acts on, so a pin one version behind does not turn a working template red. The release is the tag GitHub has. Rebuilt by [fleet-ops](https://github.com/heyvaldemar/fleet-ops) once a day and rewritten when a row changes; this table last changed 2026-11-16 06:32 UTC.*
 
 ## Self-hosted applications behind Traefik with Let's Encrypt (51)
 
@@ -136,7 +136,7 @@ This file is generated. Nothing in it is a claim of its own: the badge is each w
 
 | Repository | Latest release | CI |
 | :--- | :--- | :--- |
-| [Oxy Llm Gateway](https://github.com/heyvaldemar/oxy-llm-gateway) | [v1.0.3](https://github.com/heyvaldemar/oxy-llm-gateway/releases/tag/v1.0.3) · 2026-11-15 | [![CI](https://github.com/heyvaldemar/oxy-llm-gateway/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/oxy-llm-gateway/actions/workflows/ci.yml) |
+| [Oxy Llm Gateway](https://github.com/heyvaldemar/oxy-llm-gateway) | [v1.0.4](https://github.com/heyvaldemar/oxy-llm-gateway/releases/tag/v1.0.4) · 2026-11-16 | [![CI](https://github.com/heyvaldemar/oxy-llm-gateway/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/oxy-llm-gateway/actions/workflows/ci.yml) |
 
 ## Operations tools and scripts (11)
 
